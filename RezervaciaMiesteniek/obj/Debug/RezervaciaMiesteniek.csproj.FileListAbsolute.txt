@@ -38,3 +38,15 @@ C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\o
 C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Properties.Resources.resources
 C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
 C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\MySql.Data.dll
+C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe.config
+C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
+C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
+C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe
+C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.pdb
+C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csprojResolveAssemblyReference.cache
+C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddReservationWindow.resources
+C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddUserWindow.resources
+C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.LoginWindow.resources
+C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.MainForm.resources
+C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Properties.Resources.resources
+C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
