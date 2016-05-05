@@ -1,0 +1,40 @@
+c:\users\tomi\documents\visual studio 2015\Projects\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe.config
+c:\users\tomi\documents\visual studio 2015\Projects\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe
+c:\users\tomi\documents\visual studio 2015\Projects\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.pdb
+c:\users\tomi\documents\visual studio 2015\Projects\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csprojResolveAssemblyReference.cache
+c:\users\tomi\documents\visual studio 2015\Projects\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Properties.Resources.resources
+c:\users\tomi\documents\visual studio 2015\Projects\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
+c:\users\tomi\documents\visual studio 2015\Projects\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
+c:\users\tomi\documents\visual studio 2015\Projects\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
+c:\users\tomi\documents\visual studio 2015\Projects\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.MainForm.resources
+C:\Users\tomi\Documents\Visual Studio 2015\Projects\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddUserWindow.resources
+C:\Users\tomi\Documents\Visual Studio 2015\Projects\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.LoginWindow.resources
+C:\Users\tomi\Documents\Visual Studio 2015\Projects\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddReservationWindow.resources
+C:\Users\Tomas\Desktop\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe.config
+C:\Users\Tomas\Desktop\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
+C:\Users\Tomas\Desktop\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
+C:\Users\Tomas\Desktop\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe
+C:\Users\Tomas\Desktop\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.pdb
+C:\Users\Tomas\Desktop\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csprojResolveAssemblyReference.cache
+C:\Users\Tomas\Desktop\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddReservationWindow.resources
+C:\Users\Tomas\Desktop\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddUserWindow.resources
+C:\Users\Tomas\Desktop\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.LoginWindow.resources
+C:\Users\Tomas\Desktop\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.MainForm.resources
+C:\Users\Tomas\Desktop\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Properties.Resources.resources
+C:\Users\Tomas\Desktop\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
+C:\Users\tomi\Desktop\xxx\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe.config
+C:\Users\tomi\Desktop\xxx\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
+C:\Users\tomi\Desktop\xxx\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe.config
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.pdb
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csprojResolveAssemblyReference.cache
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddReservationWindow.resources
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddUserWindow.resources
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.LoginWindow.resources
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.MainForm.resources
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Properties.Resources.resources
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
+C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\MySql.Data.dll
