@@ -38,3 +38,6 @@ C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\o
 C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Properties.Resources.resources
 C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
 C:\Users\tomi\Desktop\praca_2.5.2016\RezervaciaMiesteniek\RezervaciaMiesteniek\bin\Debug\MySql.Data.dll
+C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe.config
+C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
+C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
