@@ -54,5 +54,11 @@ namespace RezervaciaMiesteniek
             addReservation.ShowDialog();
             this.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Change_password_form change = new Change_password_form(userID);
+            change.ShowDialog();
+        }
     }
 }
