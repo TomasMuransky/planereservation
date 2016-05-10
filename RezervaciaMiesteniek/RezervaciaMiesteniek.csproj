@@ -53,6 +53,13 @@
     <Compile Include="AddReservationWindow.Designer.cs">
       <DependentUpon>AddReservationWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Change_password_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_password_form.Designer.cs">
+      <DependentUpon>Change_password_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change_users_settings.cs" />
     <Compile Include="DataBase.cs" />
     <Compile Include="LoginUser.cs" />
     <Compile Include="LoginWindow.cs">
@@ -80,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddUserWindow.resx">
       <DependentUpon>AddUserWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_password_form.resx">
+      <DependentUpon>Change_password_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginWindow.resx">
       <DependentUpon>LoginWindow.cs</DependentUpon>

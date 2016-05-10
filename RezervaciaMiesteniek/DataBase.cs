@@ -161,6 +161,5 @@ namespace RezervaciaMiesteniek
                 return false;
             }
         }
-
     }
 }
