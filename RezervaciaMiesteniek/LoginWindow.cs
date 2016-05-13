@@ -75,6 +75,12 @@ namespace RezervaciaMiesteniek
 
         }
 
+        private void LoginWindow_Load(object sender, EventArgs e)
+        {
+            Loading load = new Loading();
+            load.ShowDialog();
+        }
+
         private void label2_Click(object sender, EventArgs e)
         {
 

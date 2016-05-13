@@ -53,6 +53,7 @@
     <Compile Include="AddReservationWindow.Designer.cs">
       <DependentUpon>AddReservationWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="AutoInsertPlane.cs" />
     <Compile Include="Change_password_form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +62,12 @@
     </Compile>
     <Compile Include="Change_users_settings.cs" />
     <Compile Include="DataBase.cs" />
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginUser.cs" />
     <Compile Include="LoginWindow.cs">
       <SubType>Form</SubType>
@@ -90,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Change_password_form.resx">
       <DependentUpon>Change_password_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginWindow.resx">
       <DependentUpon>LoginWindow.cs</DependentUpon>

@@ -115,6 +115,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "LoginWindow";
             this.Text = "User Login";
+            this.Load += new System.EventHandler(this.LoginWindow_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
