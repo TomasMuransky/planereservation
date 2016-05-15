@@ -102,7 +102,7 @@ namespace RezervaciaMiesteniek
         {
             try
             {
-                string insert3 = "insert into passenger_login(passengerId, username, password) values('"+passengerID+"','"+login+"','"+password+"');";
+                string insert3 = "insert into passenger_login(passengerId, username, password,isAdmin) values('" + passengerID+"','"+login+"','"+password+"','N');";
                 MySqlCommand cmd3 = new MySqlCommand(insert3, connection);
                 cmd3.ExecuteNonQuery();
             }

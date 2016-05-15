@@ -53,6 +53,7 @@
     <Compile Include="AddReservationWindow.Designer.cs">
       <DependentUpon>AddReservationWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="addTicket.cs" />
     <Compile Include="AutoInsertPlane.cs" />
     <Compile Include="Change_password_form.cs">
       <SubType>Form</SubType>
