@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,17 +13,36 @@ namespace RezervaciaMiesteniek
 {
     public partial class AddReservationWindow : Form
     {
+        private string passengerID;
         private DateTime selectedDate;
-        private string from;
-        private string startTime;
+        private string from; //miesto odletu
+        private string startTime; //cas odletu
+        private string planeID;
 
-        public AddReservationWindow()
+        public AddReservationWindow(string ID)
         {
             InitializeComponent();
             selectedDate = DateTime.Now;
-          //  setFromAndTime();
+            setFromAndTime();
+            this.passengerID = ID;
+            AddTicket ticket = new AddTicket();
+            planeID = ticket.getPlaneID(selectedDate, from, startTime);
+            setSeatsMenu(planeID);
         }
 
+        private void setSeatsMenu(string pl_ID)
+        {
+            comboBox3.Items.Clear();
+            AddTicket ticket = new AddTicket();
+            List<string> seatsList = ticket.getSeatsList(pl_ID);
+            for (int i = 0; i < seatsList.Count; i++)
+            {
+                comboBox3.Items.Add(seatsList[i]);
+            }
+            if (seatsList[0] != null)
+                comboBox3.SelectedIndex = 0;
+        }
+        
         private void setFromAndTime()
         {
             if (comboBox1.SelectedItem.ToString().Equals("Kosice - Bratislava"))
@@ -53,24 +73,18 @@ namespace RezervaciaMiesteniek
         {
             setFromAndTime();
 
-            Console.WriteLine(from);
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             selectedDate = dateTimePicker1.Value;
-            Console.WriteLine(selectedDate.ToString());
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             setFromAndTime();
-            Console.WriteLine(startTime);
         }
 
-        private void AddReservationWindow_Shown(object sender, EventArgs e)
-        {
-            setFromAndTime();
-        }
+ 
     }
 }
