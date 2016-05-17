@@ -18,6 +18,7 @@ namespace RezervaciaMiesteniek
         private string from; //miesto odletu
         private string startTime; //cas odletu
         private string planeID;
+        private string seatID;
 
         public AddReservationWindow(string ID)
         {
@@ -45,6 +46,10 @@ namespace RezervaciaMiesteniek
         
         private void setFromAndTime()
         {
+            if (comboBox1.SelectedItem == null)
+                comboBox1.SelectedIndex = 0;
+            if (comboBox2.SelectedItem == null)
+                comboBox2.SelectedIndex = 0;
             if (comboBox1.SelectedItem.ToString().Equals("Kosice - Bratislava"))
             {
                 from = "Kosice";
@@ -62,6 +67,7 @@ namespace RezervaciaMiesteniek
             {
                 startTime = "19:00:00";
             }
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -72,19 +78,34 @@ namespace RezervaciaMiesteniek
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             setFromAndTime();
-
+            AddTicket ticket = new AddTicket();
+            planeID = ticket.getPlaneID(selectedDate, from, startTime);
+            setSeatsMenu(planeID);
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             selectedDate = dateTimePicker1.Value;
+            setFromAndTime();
+            AddTicket ticket = new AddTicket();
+            planeID = ticket.getPlaneID(selectedDate, from, startTime);
+            setSeatsMenu(planeID);
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             setFromAndTime();
+            AddTicket ticket = new AddTicket();
+            planeID = ticket.getPlaneID(selectedDate, from, startTime);
+            setSeatsMenu(planeID);
         }
 
- 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            seatID = comboBox3.SelectedItem.ToString();
+            AddTicket ticket = new AddTicket();
+            ticket.addTicket(selectedDate,from, startTime ,passengerID,seatID);
+            this.Dispose();
+        }
     }
 }
