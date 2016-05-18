@@ -49,10 +49,16 @@ namespace RezervaciaMiesteniek
         private void button2_Click(object sender, EventArgs e)
         {
             //z tade sa zavola formular na pridanie rezervacie
-            AddReservationWindow addReservation = new AddReservationWindow();
+            AddReservationWindow addReservation = new AddReservationWindow(userID);
             this.Hide();
             addReservation.ShowDialog();
             this.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Change_password_form change = new Change_password_form(userID);
+            change.ShowDialog();
         }
     }
 }
