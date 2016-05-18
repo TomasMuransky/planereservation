@@ -59,7 +59,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(395, 306);
+            this.button1.Location = new System.Drawing.Point(288, 303);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 23);
             this.button1.TabIndex = 4;
@@ -69,9 +69,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(290, 306);
+            this.button2.Location = new System.Drawing.Point(399, 303);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(99, 23);
+            this.button2.Size = new System.Drawing.Size(105, 23);
             this.button2.TabIndex = 5;
             this.button2.Text = "New Account";
             this.button2.UseVisualStyleBackColor = true;
@@ -113,6 +113,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.MaximumSize = new System.Drawing.Size(800, 533);
+            this.MinimumSize = new System.Drawing.Size(800, 533);
             this.Name = "LoginWindow";
             this.Text = "User Login";
             this.Load += new System.EventHandler(this.LoginWindow_Load);

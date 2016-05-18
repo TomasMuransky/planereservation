@@ -38,11 +38,14 @@ namespace RezervaciaMiesteniek
 
         private void button3_Click(object sender, EventArgs e)
         {
-            result = MessageBox.Show("You are shure to remove reservation?", "varning", MessageBoxButtons.YesNo);
-            if (result == System.Windows.Forms.DialogResult.Yes)
+            if (listBox1.SelectedItem != null)
             {
-                System.Console.WriteLine("akcia potvrdena");
-                //z tade sa zavola funkcia na odstranenie rezervacie
+                result = MessageBox.Show("You are shure to remove reservation?", "varning", MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
+                {
+                    System.Console.WriteLine("akcia potvrdena");
+                    //z tade sa zavola funkcia na odstranenie rezervacie
+                }
             }
         }
 
@@ -57,8 +60,10 @@ namespace RezervaciaMiesteniek
 
         private void button4_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Change_password_form change = new Change_password_form(userID);
             change.ShowDialog();
+            this.Show();
         }
     }
 }

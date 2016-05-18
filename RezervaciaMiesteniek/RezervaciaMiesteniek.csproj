@@ -90,6 +90,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveReservation.cs" />
     <EmbeddedResource Include="AddReservationWindow.resx">
       <DependentUpon>AddReservationWindow.cs</DependentUpon>
     </EmbeddedResource>
