@@ -113,6 +113,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.MaximumSize = new System.Drawing.Size(800, 533);
+            this.MinimumSize = new System.Drawing.Size(800, 533);
             this.Name = "LoginWindow";
             this.Text = "User Login";
             this.ResumeLayout(false);
