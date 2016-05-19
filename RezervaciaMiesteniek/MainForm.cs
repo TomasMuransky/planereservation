@@ -65,5 +65,16 @@ namespace RezervaciaMiesteniek
             change.ShowDialog();
             this.Show();
         }
+
+        private void MainForm_Activated(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            AddTicketToListbox tickets = new AddTicketToListbox();
+            List<string> list = tickets.getTicketsList(userID);
+            for (int i = 0; i < list.Count; i++)
+            {
+                listBox1.Items.Add(list[i]);
+            }
+        }
     }
 }
