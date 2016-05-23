@@ -43,8 +43,19 @@ namespace RezervaciaMiesteniek
                 result = MessageBox.Show("You are shure to remove reservation?", "varning", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
-                    System.Console.WriteLine("akcia potvrdena");
                     //z tade sa zavola funkcia na odstranenie rezervacie
+                    string ticketStr = listBox1.GetItemText(listBox1.SelectedItem);
+                    Console.WriteLine(ticketStr);
+                    RemoveReservation rem = new RemoveReservation();
+                    rem.removeReservation(ticketStr,userID);
+                    /********************************************************************/
+                    listBox1.Items.Clear();
+                    AddTicketToListbox tickets = new AddTicketToListbox();
+                    List<string> list = tickets.getTicketsList(userID);
+                    for (int i = 0; i < list.Count; i++)
+                    {
+                        listBox1.Items.Add(list[i]);
+                    }
                 }
             }
         }
@@ -52,10 +63,18 @@ namespace RezervaciaMiesteniek
         private void button2_Click(object sender, EventArgs e)
         {
             //z tade sa zavola formular na pridanie rezervacie
-            AddReservationWindow addReservation = new AddReservationWindow(userID);
             this.Hide();
+            AddReservationWindow addReservation = new AddReservationWindow(userID);
             addReservation.ShowDialog();
             this.Show();
+            /******************************************/
+            listBox1.Items.Clear();
+            AddTicketToListbox tickets = new AddTicketToListbox();
+            List<string> list = tickets.getTicketsList(userID);
+            for (int i = 0; i < list.Count; i++)
+            {
+                listBox1.Items.Add(list[i]);
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -66,7 +85,7 @@ namespace RezervaciaMiesteniek
             this.Show();
         }
 
-        private void MainForm_Activated(object sender, EventArgs e)
+        private void MainForm_Shown(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
             AddTicketToListbox tickets = new AddTicketToListbox();

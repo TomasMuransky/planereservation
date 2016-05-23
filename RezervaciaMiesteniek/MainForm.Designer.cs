@@ -125,7 +125,7 @@
             this.MinimumSize = new System.Drawing.Size(800, 533);
             this.Name = "MainForm";
             this.Text = "MainForm";
-            this.Activated += new System.EventHandler(this.MainForm_Activated);
+            this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

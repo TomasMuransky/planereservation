@@ -101,7 +101,7 @@ namespace RezervaciaMiesteniek
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
+        { 
             seatID = comboBox3.SelectedItem.ToString();
             AddTicket ticket = new AddTicket();
             ticket.addTicket(selectedDate,from, startTime ,passengerID,seatID);
