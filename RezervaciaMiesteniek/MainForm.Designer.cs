@@ -124,6 +124,7 @@
             this.MaximumSize = new System.Drawing.Size(800, 533);
             this.MinimumSize = new System.Drawing.Size(800, 533);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainForm";
             this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.ResumeLayout(false);

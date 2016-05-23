@@ -45,7 +45,6 @@ namespace RezervaciaMiesteniek
                 {
                     //z tade sa zavola funkcia na odstranenie rezervacie
                     string ticketStr = listBox1.GetItemText(listBox1.SelectedItem);
-                    Console.WriteLine(ticketStr);
                     RemoveReservation rem = new RemoveReservation();
                     rem.removeReservation(ticketStr,userID);
                     /********************************************************************/

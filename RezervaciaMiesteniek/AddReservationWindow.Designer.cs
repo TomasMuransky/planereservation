@@ -167,6 +167,7 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label1);
             this.Name = "AddReservationWindow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AddReservationWindow";
             this.ResumeLayout(false);
             this.PerformLayout();

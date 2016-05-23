@@ -52,6 +52,7 @@
             this.ClientSize = new System.Drawing.Size(259, 83);
             this.Controls.Add(this.label1);
             this.Name = "Loading";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Loading";
             this.Shown += new System.EventHandler(this.Loading_Shown);
             this.ResumeLayout(false);
