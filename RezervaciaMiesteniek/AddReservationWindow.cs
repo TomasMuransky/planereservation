@@ -23,7 +23,8 @@ namespace RezervaciaMiesteniek
         public AddReservationWindow(string ID)
         {
             InitializeComponent();
-            selectedDate = DateTime.Now;
+            selectedDate = DateTime.Now.AddDays(1);
+            dateTimePicker1.Value = DateTime.Now.AddDays(1);
             setFromAndTime();
             this.passengerID = ID;
             AddTicket ticket = new AddTicket();
@@ -83,13 +84,26 @@ namespace RezervaciaMiesteniek
             setSeatsMenu(planeID);
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e) 
         {
+            DateTime dateMin = DateTime.Now.AddDays(1);
+            DateTime dateMax = DateTime.Now.AddDays(30);
             selectedDate = dateTimePicker1.Value;
-            setFromAndTime();
-            AddTicket ticket = new AddTicket();
-            planeID = ticket.getPlaneID(selectedDate, from, startTime);
-            setSeatsMenu(planeID);
+            if (selectedDate >= dateMin && selectedDate <= dateMax) 
+            {
+                setFromAndTime();
+                AddTicket ticket = new AddTicket();
+                planeID = ticket.getPlaneID(selectedDate, from, startTime);
+                setSeatsMenu(planeID);
+            }else
+            {
+                dateTimePicker1.Value = DateTime.Now.AddDays(1);
+                MessageBox.Show("Minimum time of buying is 1 day and maximum is 30n days!");
+
+            }
+            Console.WriteLine(selectedDate.ToString());
+            
+            
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
