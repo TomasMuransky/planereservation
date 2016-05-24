@@ -25,3 +25,6 @@ C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\Reze
 C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.MainForm.resources
 C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Properties.Resources.resources
 C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
+C:\Users\Marian\Desktop\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe.config
+C:\Users\Marian\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
+C:\Users\Marian\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
