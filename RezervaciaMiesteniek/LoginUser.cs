@@ -129,5 +129,10 @@ namespace RezervaciaMiesteniek
             }
 
         }
+        /*************************************************/
+        public bool isAdmin(string login)
+        {
+            return true;
+        }
     }
 }

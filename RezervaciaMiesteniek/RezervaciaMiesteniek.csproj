@@ -63,7 +63,14 @@
       <DependentUpon>Change_password_form.cs</DependentUpon>
     </Compile>
     <Compile Include="Change_users_settings.cs" />
+    <Compile Include="AddUserToAdminComboBox.cs" />
     <Compile Include="DataBase.cs" />
+    <Compile Include="AdminWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminWindow.Designer.cs">
+      <DependentUpon>AdminWindow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loading.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Change_password_form.resx">
       <DependentUpon>Change_password_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminWindow.resx">
+      <DependentUpon>AdminWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loading.resx">
       <DependentUpon>Loading.cs</DependentUpon>
