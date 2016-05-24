@@ -95,7 +95,8 @@ namespace RezervaciaMiesteniek
                 AddTicket ticket = new AddTicket();
                 planeID = ticket.getPlaneID(selectedDate, from, startTime);
                 setSeatsMenu(planeID);
-            }else
+            }
+            else
             {
                 dateTimePicker1.Value = DateTime.Now.AddDays(1);
                 MessageBox.Show("Minimum time of buying is 1 day and maximum is 30n days!");
