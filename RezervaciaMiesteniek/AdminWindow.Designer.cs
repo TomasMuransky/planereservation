@@ -42,7 +42,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(12, 12);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(159, 21);
+            this.comboBox1.Size = new System.Drawing.Size(200, 21);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.Text = "PassengerInfo";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
@@ -50,9 +50,9 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(177, 12);
+            this.comboBox2.Location = new System.Drawing.Point(218, 12);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(159, 21);
+            this.comboBox2.Size = new System.Drawing.Size(200, 21);
             this.comboBox2.TabIndex = 1;
             this.comboBox2.Text = "PassengerReservarations";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
