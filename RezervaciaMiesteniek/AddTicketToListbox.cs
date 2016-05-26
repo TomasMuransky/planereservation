@@ -58,7 +58,16 @@ namespace RezervaciaMiesteniek
         /***************************************************************************/
         private string getFlyInformation(string planeID)
         {
-            string connectionStr = "SERVER=localhost;DATABASE=plane;UID=root;PASSWORD=1234;";
+            string connectionStr = null;
+            try
+            {
+                connectionStr = System.IO.File.ReadAllText("sqlConnectivity.conf");
+            }catch
+            {
+                System.Windows.Forms.MessageBox.Show("file: sqlConnectivity.conf not found");
+                System.Windows.Forms.Application.Exit();
+            }
+             
             MySqlConnection connectio2 = new MySqlConnection(connectionStr); //vytvorenie npveho pripojenia
             try
             {
@@ -69,12 +78,17 @@ namespace RezervaciaMiesteniek
                 MySqlDataReader reader = cmd.ExecuteReader();
                 reader.Read(); //ziskanie podrobnych infomacii o lete , odlet , smer
                 result = "departure: ";
-                result += reader["TimeOfDeparture"].ToString();
+
+                string pom = reader["TimeOfDeparture"].ToString();
+                DateTime d = DateTime.Parse(pom);
+                result += d.ToString("dd.MM.yyyy hh:mm:ss");
+               
                 result += " \tdirection: ";
                 result += reader["fromId"].ToString();
                 result += "-";
                 result += reader["toId"].ToString();
                 connectio2.Close();
+
                 return result;
             }
             catch (MySqlException e)
