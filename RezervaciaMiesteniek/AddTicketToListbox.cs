@@ -81,7 +81,8 @@ namespace RezervaciaMiesteniek
 
                 string pom = reader["TimeOfDeparture"].ToString();
                 DateTime d = DateTime.Parse(pom);
-                result += d.ToString("dd.MM.yyyy hh:mm:ss");
+                Console.WriteLine(pom + "\n" + d.ToString()+"\n"+d.ToString("dd.MM.yyyy HH:mm:ss"));
+                result += d.ToString("dd.MM.yyyy HH:mm:ss");
                
                 result += " \tdirection: ";
                 result += reader["fromId"].ToString();
