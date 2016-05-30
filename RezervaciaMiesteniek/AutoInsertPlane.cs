@@ -258,10 +258,7 @@ namespace RezervaciaMiesteniek
                     addNewPlane(future);
                     future = future.AddDays(-1);
                 }
-                else
-                {
-                    break;
-                }
+             
             }
         }
     }

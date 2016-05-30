@@ -41,3 +41,4 @@ C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug
 C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.MainForm.resources
 C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Properties.Resources.resources
 C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
+C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AdminForm.resources

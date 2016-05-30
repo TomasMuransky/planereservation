@@ -31,13 +31,14 @@ namespace RezervaciaMiesteniek
 
             if (user.loginVerification(login, password)) //prihlasenie sa 
             {
-                if (user.isAdmin(login))
+                userID = user.getUserId(login); //ziskanie id pouzivatela
+                if (user.isAdmin(userID))
                 {
                     AdminForm adw = new AdminForm();
+                    this.Hide();
                     adw.ShowDialog();
                 }
-                userID = user.getUserId(login); //ziskanie id pouzivatela
-                MainForm mainform = new MainForm(userID); 
+                MainForm mainform = new MainForm(userID);
                 this.Hide();
                 mainform.ShowDialog();
                 this.Show();
