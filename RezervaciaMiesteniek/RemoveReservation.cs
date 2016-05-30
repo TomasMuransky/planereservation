@@ -91,11 +91,6 @@ namespace RezervaciaMiesteniek
         public void removeReservation(string ticketInfo,string passengerID)
         {
             string[] parts = ticketInfo.Split(' '); //[6] = seatID, [8] = planeID
-            Console.WriteLine(ticketInfo);
-            for (int i = 0; i < parts.Length; i++)
-            {
-                Console.WriteLine(parts[i]);
-            }
             deleteTicket(passengerID, parts[8], parts[6]);
             updateSeat(passengerID, parts[8], parts[6]);
         }
