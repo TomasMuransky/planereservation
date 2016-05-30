@@ -64,6 +64,8 @@
     </Compile>
     <Compile Include="Change_users_settings.cs" />
     <Compile Include="AddUserToAdminComboBox.cs" />
+    <Compile Include="AddUserReservationsToComboBox.cs" />
+    <Compile Include="RemoveUser.cs" />
     <Compile Include="DataBase.cs" />
     <Compile Include="AdminWindow.cs">
       <SubType>Form</SubType>

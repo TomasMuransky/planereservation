@@ -7,13 +7,14 @@ using System.Threading.Tasks;
 
 namespace RezervaciaMiesteniek
 {
-    class RemoveReservation
+    class RemoveUser
     {
         MySqlConnection connection;
 
-        public RemoveReservation()
+        public RemoveUser()
         {
             string connectionStr = "";
+
             try
             {
                 connectionStr = System.IO.File.ReadAllText("sqlConnectivity.conf");
@@ -52,12 +53,14 @@ namespace RezervaciaMiesteniek
                 return false;
             }
         }
-        /********************************************************************/
-        private void deleteTicket(string passengerID, string planeID, string seatID)
+
+        private void deletePassenger(string passengerID, string firstName, string lastName, string mail, string phone, string username, string password, string isAdmin)
         {
             if (OpenCon())
             {
-                string query = "delete from tickets where passengerId like '"+passengerID+"' && planeId like '"+planeID+"' && seatId like '"+seatID+"';";
+                string query = "delete from Passenger where id like '" + passengerID + "' && firstName like '" + firstName + "' && lastName like '" + lastName + "';";
+                string query2 = "delete from Passenger_detail where mail like '" + mail + "' && phone like '" + phone + "';";
+                string query3 = "delete from Passenger_login where passengerId like '" + passengerID + "' && username like '" + username + "' && password like '" + password + "' && isAdmin like '" + isAdmin + "';";
                 try
                 {
                     MySqlCommand cmd = new MySqlCommand(query, connection);
@@ -71,34 +74,9 @@ namespace RezervaciaMiesteniek
             }
         }
 
-        private void updateSeat(string passengerID, string planeID, string seatID)
+        public void removeUser()
         {
-            if (OpenCon())
-            {
-                string query = "update seats set passengerId='0',seatIsTaken='N' where  seatId like '"+seatID+"' && planeId like '"+planeID+"' && passengerId like '"+passengerID+"';";
-                try
-                {
-                    MySqlCommand cmd = new MySqlCommand(query, connection);
-                    cmd.ExecuteNonQuery();
-                }
-                catch (MySqlException e)
-                {
-                    Console.WriteLine(e.Message);
-                }
-            }
+            
         }
-
-        public void removeReservation(string ticketInfo, string passengerID)
-        {
-            string[] parts = ticketInfo.Split(' '); //[6] = seatID, [8] = planeID
-            Console.WriteLine(ticketInfo);
-            for (int i = 0; i < parts.Length; i++)
-            {
-                Console.WriteLine(parts[i]);
-            }
-            deleteTicket(passengerID, parts[8], parts[6]);
-            updateSeat(passengerID, parts[8], parts[6]);
-        }
-
     }
 }

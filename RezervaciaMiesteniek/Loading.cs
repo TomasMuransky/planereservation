@@ -14,7 +14,7 @@ namespace RezervaciaMiesteniek
     public partial class Loading : Form
     {
         
-        private void LoadigThread()
+        private void LoadingThread()
         {
             AutoInsertPlane insertPlane = new AutoInsertPlane();
             insertPlane.autoInset();
@@ -28,7 +28,7 @@ namespace RezervaciaMiesteniek
 
         private void Loading_Shown(object sender, EventArgs e)
         {
-            Thread th = new Thread(LoadigThread); //nove vlakno
+            Thread th = new Thread(LoadingThread); //nove vlakno
             //th.Start();
             AutoInsertPlane insertPlane = new AutoInsertPlane();
             insertPlane.autoInset();

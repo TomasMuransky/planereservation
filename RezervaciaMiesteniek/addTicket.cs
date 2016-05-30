@@ -127,9 +127,9 @@ namespace RezervaciaMiesteniek
                     {
                         string[] result = new string[2];
                         result[0] = reader["seatId"].ToString();
-                        result[1] = reader["seatIsTaken"].ToString(); //bolean ci je sedadlo obsdene
+                        result[1] = reader["seatIsTaken"].ToString(); //boolean ci je sedadlo obsdene
                        
-                        if (result[1].Equals("N")) //sedadlo sa prida do zoz namu iba ked nie je obsadene
+                        if (result[1].Equals("N")) //sedadlo sa prida do zoznamu iba ked nie je obsadene
                         {
                             seatsList.Add(result[0]); //a tu je to slavne pridanie 
                         }

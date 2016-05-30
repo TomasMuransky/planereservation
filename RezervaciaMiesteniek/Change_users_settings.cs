@@ -15,7 +15,7 @@ namespace RezervaciaMiesteniek
 
         public Change_users_settings()
         {
-            string connectionStr = "SERVER=localhost;DATABASE=plane;UID=root;PASSWORD=1234;";
+            string connectionStr = "SERVER=localhost;DATABASE=plane22;UID=root;PASSWORD=dogshit;";
             connection = new MySqlConnection(connectionStr);
         }
 
@@ -67,7 +67,7 @@ namespace RezervaciaMiesteniek
                 }
                 else
                 {
-                    Console.WriteLine("zadali ste zle heslo");
+                    Console.WriteLine("password is incorrect!");
                 }
                 CloseConnection();
                 return false;

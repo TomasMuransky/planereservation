@@ -72,9 +72,9 @@ namespace RezervaciaMiesteniek
                     {
                         result = "passenger id: ";
                         result += rdr["id"].ToString();
-                        result += "passenger first name: ";
+                        result += " passenger first name: ";
                         result += rdr["firstName"].ToString();
-                        result += "passenger last name: ";
+                        result += " passenger last name: ";
                         result += rdr["lastName"].ToString();
 
                         list.Add(result);

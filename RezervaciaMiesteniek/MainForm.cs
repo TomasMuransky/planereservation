@@ -40,7 +40,7 @@ namespace RezervaciaMiesteniek
         {
             if (listBox1.SelectedItem != null)
             {
-                result = MessageBox.Show("You are shure to remove reservation?", "varning", MessageBoxButtons.YesNo);
+                result = MessageBox.Show("Are you sure that you want to remove your reservation?", "warning", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
                     //z tade sa zavola funkcia na odstranenie rezervacie

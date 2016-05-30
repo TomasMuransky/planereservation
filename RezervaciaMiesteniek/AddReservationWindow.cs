@@ -99,7 +99,7 @@ namespace RezervaciaMiesteniek
             else
             {
                 dateTimePicker1.Value = DateTime.Now.AddDays(1);
-                MessageBox.Show("Minimum time of buying is 1 day and maximum is 30n days!");
+                MessageBox.Show("Minimum time of buying is 1 day and maximum is 30 days!");
 
             }
             Console.WriteLine(selectedDate.ToString());
