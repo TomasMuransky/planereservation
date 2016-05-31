@@ -12,7 +12,7 @@ namespace RezervaciaMiesteniek
 {
     public partial class AdminForm : Form
     {
-        private String Admin;
+        
         
         public AdminForm()
         {
@@ -22,7 +22,16 @@ namespace RezervaciaMiesteniek
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            string info = comboBox1.SelectedItem.ToString();
+            string[] parts = info.Split(' '); // [2] 
+            comboBox2.Items.Clear();
+            AddUserToAdminComboBox adU = new AddUserToAdminComboBox();
+            List <string> list = adU.add_ticket_to_admin_comobobox(parts[2]);
+            for (int i = 0; i< list.Count; i++)
+            {
+                comboBox2.Items.Add(list[i]);
+            }
+
         }
 
         private void button4_Click(object sender, EventArgs e)
