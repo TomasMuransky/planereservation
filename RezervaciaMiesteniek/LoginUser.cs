@@ -129,5 +129,28 @@ namespace RezervaciaMiesteniek
             }
 
         }
+        /*************************************************/
+        public bool isAdmin(string id)
+        {
+            string query = "select * from passenger_login where id like'"+id+"';";
+            if (OpenCon())
+            {
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                reader.Read();
+                string res = reader["isAdmin"].ToString();
+                if (res.Equals("Y"))
+                {
+                    CloseConnection();
+                    return true;
+                }
+                else
+                {
+                    CloseConnection();
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }

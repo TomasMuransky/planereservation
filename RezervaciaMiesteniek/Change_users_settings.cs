@@ -15,7 +15,16 @@ namespace RezervaciaMiesteniek
 
         public Change_users_settings()
         {
-            string connectionStr = "SERVER=localhost;DATABASE=plane;UID=root;PASSWORD=1234;";
+            string connectionStr = "";
+            try
+            {
+                connectionStr = System.IO.File.ReadAllText("sqlConnectivity.conf");
+            }
+            catch
+            {
+                System.Windows.Forms.MessageBox.Show("file: sqlConnectivity.conf not found!");
+                System.Windows.Forms.Application.Exit();
+            }
             connection = new MySqlConnection(connectionStr);
         }
 

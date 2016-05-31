@@ -155,7 +155,7 @@ namespace RezervaciaMiesteniek
         {
             if (OpenCon())
             {
-                string query = "INSERT INTO Plane_Destinations(planeId,TimeOfDeparture,TimeOfArriving,fromId,toId) VALUES('" + plane_id+"','"+date.ToString("yyyy-MM-dd")+ " 07:00:00','"+ date.ToString("yyyy-MM-dd") + " 08:00:00','Kosice','Bratislava');";
+                string query = "INSERT INTO plane_destinations(planeId,TimeOfDeparture,TimeOfArriving,fromId,toId) VALUES('" + plane_id+"','"+date.ToString("yyyy-MM-dd")+ " 07:00:00','"+ date.ToString("yyyy-MM-dd") + " 08:00:00','Kosice','Bratislava');";
                 MySqlCommand cmd = new MySqlCommand(query, connection);
                 try
                 {
@@ -174,7 +174,7 @@ namespace RezervaciaMiesteniek
         {
             if (OpenCon())
             {
-                string query = "INSERT INTO Plane_Destinations(planeId,TimeOfDeparture,TimeOfArriving,fromId,toId) VALUES('" + plane_id + "','" + date.ToString("yyyy-MM-dd") + " 07:00:00','" + date.ToString("yyyy-MM-dd") + " 08:00:00','Bratislava','Kosice');";
+                string query = "INSERT INTO plane_destinations(planeId,TimeOfDeparture,TimeOfArriving,fromId,toId) VALUES('" + plane_id + "','" + date.ToString("yyyy-MM-dd") + " 07:00:00','" + date.ToString("yyyy-MM-dd") + " 08:00:00','Bratislava','Kosice');";
                 MySqlCommand cmd = new MySqlCommand(query, connection);
                 try
                 {
@@ -193,7 +193,7 @@ namespace RezervaciaMiesteniek
         {
             if (OpenCon())
             {
-                string query = "INSERT INTO Plane_Destinations(planeId,TimeOfDeparture,TimeOfArriving,fromId,toId) VALUES('" + plane_id + "','" + date.ToString("yyyy-MM-dd") + " 19:00:00','" + date.ToString("yyyy-MM-dd") + " 20:00:00','Kosice','Bratislava');";
+                string query = "INSERT INTO plane_destinations(planeId,TimeOfDeparture,TimeOfArriving,fromId,toId) VALUES('" + plane_id + "','" + date.ToString("yyyy-MM-dd") + " 19:00:00','" + date.ToString("yyyy-MM-dd") + " 20:00:00','Kosice','Bratislava');";
                 MySqlCommand cmd = new MySqlCommand(query, connection);
                 try
                 {
@@ -212,7 +212,7 @@ namespace RezervaciaMiesteniek
         {
             if (OpenCon())
             {
-                string query = "INSERT INTO Plane_Destinations(planeId,TimeOfDeparture,TimeOfArriving,fromId,toId) VALUES('" + plane_id + "','" + date.ToString("yyyy-MM-dd") + " 19:00:00','" + date.ToString("yyyy-MM-dd") + " 20:00:00','Bratislava','Kosice');";
+                string query = "INSERT INTO plane_destinations(planeId,TimeOfDeparture,TimeOfArriving,fromId,toId) VALUES('" + plane_id + "','" + date.ToString("yyyy-MM-dd") + " 19:00:00','" + date.ToString("yyyy-MM-dd") + " 20:00:00','Bratislava','Kosice');";
                 MySqlCommand cmd = new MySqlCommand(query, connection);
                 try
                 {
@@ -256,12 +256,9 @@ namespace RezervaciaMiesteniek
                 if (!checkIsPaneExist(future))
                 {
                     addNewPlane(future);
-                    future = future.AddDays(-1);
+                    
                 }
-                else
-                {
-                    break;
-                }
+                future = future.AddDays(-1);
             }
         }
     }
