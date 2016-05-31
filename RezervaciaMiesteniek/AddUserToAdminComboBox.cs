@@ -63,7 +63,7 @@ namespace RezervaciaMiesteniek
             {
                 string query;
                 string result;
-                query = "Select * from Passenger;";
+                query = "select * from passenger;";
                 try
                 {
                     MySqlCommand cmd = new MySqlCommand(query,connection);
