@@ -41,7 +41,11 @@ C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug
 C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.MainForm.resources
 C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Properties.Resources.resources
 C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe
 C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.pdb
 C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\MySql.Data.dll
 C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AdminForm.resources
+=======
+C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AdminForm.resources
+>>>>>>> a0fc1c195a1e16b91ff12788be821fc262ab4c3a
