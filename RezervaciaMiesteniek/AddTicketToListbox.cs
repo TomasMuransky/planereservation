@@ -81,7 +81,7 @@ namespace RezervaciaMiesteniek
 
                 string pom = reader["TimeOfDeparture"].ToString();
                 DateTime d = DateTime.Parse(pom);
-                result += d.ToString("dd.MM.yyyy HH:mm:ss");
+                result += d.ToString("dd.MM.yyyy  -  HH:mm:ss");
                
                 result += " \tdirection: ";
                 result += reader["fromId"].ToString();
@@ -115,7 +115,7 @@ namespace RezervaciaMiesteniek
                         string planeID = reader["planeId"].ToString();
                         string seatID = reader["seatId"].ToString();
                         string res = getFlyInformation(planeID);
-                        res += " \tseat_number: " + seatID + " \tfly_number: " + planeID;
+                        res += " \tseat number: " + seatID + " \tnumber of flight: " + planeID;
                         list.Add(res);
                     }
                 }
