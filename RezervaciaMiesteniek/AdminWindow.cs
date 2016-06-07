@@ -43,7 +43,15 @@ namespace RezervaciaMiesteniek
 
         private void button1_Click(object sender, EventArgs e) //remove reservation
         {
+<<<<<<< HEAD
             DialogResult result = MessageBox.Show("Are you sure you want to remove your reservation?", "warning", MessageBoxButtons.YesNo);
+=======
+<<<<<<< HEAD
+            DialogResult result = MessageBox.Show("Are you sure that you want to remove your reservation?", "warning", MessageBoxButtons.YesNo);
+=======
+            DialogResult result = MessageBox.Show("Are you sure to remove selected teservation", "warning", MessageBoxButtons.YesNo);
+>>>>>>> aa32864014aed9a989976cf8b285088c192d195b
+>>>>>>> c9378c63b02a4c695ec1514d789b522d2a6e5ae2
             if (result == DialogResult.Yes)
             {
                 if (comboBox2.SelectedItem != null)
@@ -51,7 +59,11 @@ namespace RezervaciaMiesteniek
                     string info = comboBox2.SelectedItem.ToString();
                     string[] parts = info.Split(' '); //ticket ID = [2]; passenger ID= [5]; plane ID = [8]; seat ID [11]
 
+<<<<<<< HEAD
+                    WorkWithAdminWindow work = new WorkWithAdminWindow();
+=======
                     Work_with_planes work = new Work_with_planes();
+>>>>>>> aa32864014aed9a989976cf8b285088c192d195b
                     work.remove_reservation_from_admin(parts[5], parts[2], parts[8], parts[11]);
                 }
                 /****************************************/
@@ -61,7 +73,15 @@ namespace RezervaciaMiesteniek
                     string[] parts2 = info2.Split(' '); // [2] 
                     comboBox2.Items.Clear();
                     AddUserToAdminComboBox adU = new AddUserToAdminComboBox();
+<<<<<<< HEAD
                     List<string> list = adU.add_ticket_to_admin_combobox(parts2[2]);
+=======
+<<<<<<< HEAD
+                    List<string> list = adU.add_ticket_to_admin_combobox(parts2[2]);
+=======
+                    List<string> list = adU.add_ticket_to_admin_comobobox(parts2[2]);
+>>>>>>> aa32864014aed9a989976cf8b285088c192d195b
+>>>>>>> c9378c63b02a4c695ec1514d789b522d2a6e5ae2
                     for (int i = 0; i < list.Count; i++)
                     {
                         comboBox2.Items.Add(list[i]);
@@ -73,6 +93,7 @@ namespace RezervaciaMiesteniek
 
         private void button2_Click(object sender, EventArgs e) //remove user
         {
+<<<<<<< HEAD
             DialogResult result = MessageBox.Show("Are you sure you want to remove the selected user?", "you might regret it ", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
@@ -86,6 +107,28 @@ namespace RezervaciaMiesteniek
                     comboBox2.Items.Clear();
                     AddPassengerToComboBox();
                 }
+=======
+<<<<<<< HEAD
+            DialogResult result = MessageBox.Show("Are you sure that you want to remove the selected user?", "you might regret it ", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                if (comboBox1.SelectedItem != null)
+                {
+                    string source = comboBox1.SelectedItem.ToString();
+                    string[] parts = source.Split(' '); //passenger id=[2];
+                    WorkWithAdminWindow work = new WorkWithAdminWindow();
+                    work.remove_user_from_admin(parts[2]);
+                    /************************************/
+                    comboBox2.Items.Clear();
+                    AddPassengerToComboBox();
+                }
+=======
+            DialogResult result = MessageBox.Show("Are you sure to remove selected user", "warning", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+
+>>>>>>> aa32864014aed9a989976cf8b285088c192d195b
+>>>>>>> c9378c63b02a4c695ec1514d789b522d2a6e5ae2
             }
         }
 
@@ -113,7 +156,11 @@ namespace RezervaciaMiesteniek
         private void add_planes_to_combobox()
         {
             comboBox3.Items.Clear();
+<<<<<<< HEAD
+            WorkWithAdminWindow planes = new WorkWithAdminWindow();
+=======
             Work_with_planes planes = new Work_with_planes();
+>>>>>>> aa32864014aed9a989976cf8b285088c192d195b
             List<string> list = planes.add_plane_list_listbox();
             for (int i = 0; i < list.Count; i++)
             {
@@ -125,7 +172,11 @@ namespace RezervaciaMiesteniek
         {
             string info = comboBox3.SelectedItem.ToString();
             string[] parts = info.Split(' '); // id = [2];
+<<<<<<< HEAD
+            WorkWithAdminWindow work = new WorkWithAdminWindow();
+=======
             Work_with_planes work = new Work_with_planes();
+>>>>>>> aa32864014aed9a989976cf8b285088c192d195b
             int cout = work.get_count_of_reservated_seats(parts[2]);
             label1.Text = "resevated seats: " + cout + "-80";
         }
@@ -135,12 +186,24 @@ namespace RezervaciaMiesteniek
 
             if (comboBox3.SelectedItem != null)
             {
+<<<<<<< HEAD
                 DialogResult result = MessageBox.Show("Are you sure you want to remove the flight?", "warning", MessageBoxButtons.YesNo);
+=======
+<<<<<<< HEAD
+                DialogResult result = MessageBox.Show("Are you sure that you want to remove the fly?", "warning", MessageBoxButtons.YesNo);
+=======
+                DialogResult result = MessageBox.Show("Are you sure to remove fly?", "warning", MessageBoxButtons.YesNo);
+>>>>>>> aa32864014aed9a989976cf8b285088c192d195b
+>>>>>>> c9378c63b02a4c695ec1514d789b522d2a6e5ae2
                 if (result == DialogResult.Yes)
                 {
                     string info = comboBox3.SelectedItem.ToString();
                     string[] parts = info.Split(' '); // id = [2];
+<<<<<<< HEAD
+                    WorkWithAdminWindow work = new WorkWithAdminWindow();
+=======
                     Work_with_planes work = new Work_with_planes();
+>>>>>>> aa32864014aed9a989976cf8b285088c192d195b
                     work.remove_fly(parts[2]);
                     add_planes_to_combobox();
                 }
