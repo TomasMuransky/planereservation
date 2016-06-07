@@ -74,6 +74,12 @@
     <Compile Include="addTicket.cs" />
     <Compile Include="AddTicketToListbox.cs" />
     <Compile Include="AutoInsertPlane.cs" />
+    <Compile Include="Change_mail_phone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_mail_phone.Designer.cs">
+      <DependentUpon>Change_mail_phone.cs</DependentUpon>
+    </Compile>
     <Compile Include="Change_password_form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,11 +123,15 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveReservation.cs" />
+    <Compile Include="Work_with_planes.cs" />
     <EmbeddedResource Include="AddReservationWindow.resx">
       <DependentUpon>AddReservationWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddUserWindow.resx">
       <DependentUpon>AddUserWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_mail_phone.resx">
+      <DependentUpon>Change_mail_phone.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Change_password_form.resx">
       <DependentUpon>Change_password_form.cs</DependentUpon>

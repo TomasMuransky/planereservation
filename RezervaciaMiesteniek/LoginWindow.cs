@@ -47,7 +47,7 @@ namespace RezervaciaMiesteniek
             }
             else
             {
-                label1.Text = "bad login or password";
+                label1.Text = "wrong username or password";
             }
 
 

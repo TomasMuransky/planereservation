@@ -4,7 +4,9 @@ C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\bin\Debug\Rezervac
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\bin\Debug\MySql.Data.dll
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddReservationWindow.resources
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddUserWindow.resources
+C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Change_mail_phone.resources
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Change_password_form.resources
+C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AdminForm.resources
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Loading.resources
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.LoginWindow.resources
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.MainForm.resources
@@ -13,39 +15,3 @@ C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\Rezervac
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csprojResolveAssemblyReference.cache
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe.config
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csprojResolveAssemblyReference.cache
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddReservationWindow.resources
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddUserWindow.resources
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Change_password_form.resources
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Loading.resources
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.LoginWindow.resources
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.MainForm.resources
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Properties.Resources.resources
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe.config
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.pdb
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\MySql.Data.dll
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csprojResolveAssemblyReference.cache
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddReservationWindow.resources
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AddUserWindow.resources
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Change_password_form.resources
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AdminForm.resources
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Loading.resources
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.LoginWindow.resources
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.MainForm.resources
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Properties.Resources.resources
-C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
-<<<<<<< HEAD
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.pdb
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\MySql.Data.dll
-C:\Users\Tomas\Desktop\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AdminForm.resources
-=======
-C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.AdminForm.resources
->>>>>>> a0fc1c195a1e16b91ff12788be821fc262ab4c3a

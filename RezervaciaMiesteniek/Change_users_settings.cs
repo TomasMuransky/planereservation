@@ -90,8 +90,6 @@ namespace RezervaciaMiesteniek
 
         public void change_password(string userID, string password)
         {
-            Console.WriteLine(password);
-            Console.WriteLine(userID);
             if (OpenCon())
             {
                 try
@@ -109,5 +107,46 @@ namespace RezervaciaMiesteniek
                 }
             }
         }
+
+        public void change_phone(string userID, string phone)
+        {
+            if (OpenCon())
+            {
+                try
+                {
+                    string insert4 = "update passenger_detail set phone = '" + phone + "' where id = '" + userID + "';";
+                    MySqlCommand cmd4 = new MySqlCommand(insert4, connection);
+                    cmd4.ExecuteNonQuery();
+                    CloseConnection();
+                }
+                catch (MySqlException e)
+                {
+                    Console.WriteLine(e.Message);
+                    if (connection != null)
+                        CloseConnection();
+                }
+            }
+        }
+
+        public void change_mail(string userID, string mail)
+        {
+            if (OpenCon())
+            {
+                try
+                {
+                    string insert4 = "update passenger_detail set mail = '" + mail + "' where id = '" + userID + "';";
+                    MySqlCommand cmd4 = new MySqlCommand(insert4, connection);
+                    cmd4.ExecuteNonQuery();
+                    CloseConnection();
+                }
+                catch (MySqlException e)
+                {
+                    Console.WriteLine(e.Message);
+                    if (connection != null)
+                        CloseConnection();
+                }
+            }
+        }
+
     }
 }
