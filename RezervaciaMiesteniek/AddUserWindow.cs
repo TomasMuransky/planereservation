@@ -68,7 +68,6 @@ namespace RezervaciaMiesteniek
         private void button1_Click(object sender, EventArgs e)
         {
             this.Dispose();
-
         }
 
         private void button2_Click(object sender, EventArgs e)

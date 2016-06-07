@@ -175,5 +175,48 @@ namespace RezervaciaMiesteniek
                 }
             }
         }
+
+        public void remove_user_from_admin(string user_id)
+        {
+            if (OpenCon())
+            {
+                try
+                {
+                    string query = "delete from passenger_detail where id like'" + user_id + "';";
+                    MySqlCommand cmd = new MySqlCommand(query, connection);
+                    cmd.ExecuteNonQuery();
+                    CloseConnection();
+                    /********************************************************/
+                    OpenCon();
+                    query = "delete from passenger_login where passengerId like'" + user_id + "';";
+                    MySqlCommand cmd2 = new MySqlCommand(query, connection);
+                    cmd2.ExecuteNonQuery();
+                    CloseConnection();
+                    /**********************************************************/
+                    OpenCon();
+                    query = "delete from passenger where id like'" + user_id + "';";
+                    MySqlCommand cmd3 = new MySqlCommand(query, connection);
+                    cmd3.ExecuteNonQuery();
+                    CloseConnection();
+                    /*********************************************************/
+                    OpenCon();
+                    query = "delete from tickets where passengerId like'" + user_id + "';";
+                    MySqlCommand cmd4 = new MySqlCommand(query, connection);
+                    cmd4.ExecuteNonQuery();
+                    CloseConnection();
+                    /*********************************************************/
+                    OpenCon();
+                    query = "update seats set passengerId='0',seatIsTaken='N' where passengerId like '" + user_id + "';";
+                    MySqlCommand cmd5 = new MySqlCommand(query, connection);
+                    cmd5.ExecuteNonQuery();
+                    CloseConnection();
+                }
+                catch(MySqlException e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+                
+            }
+        }
     }
 }
