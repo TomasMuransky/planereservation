@@ -110,7 +110,7 @@ namespace RezervaciaMiesteniek
                         res += reader["planeId"].ToString();
                         res += " seat ID: ";
                         res += reader["seatId"].ToString();
-                        res += " date of buing: ";
+                        res += " date of buying: ";
 
                         string d = reader["DateOfBuying"].ToString();
                         DateTime dat = DateTime.Parse(d);
