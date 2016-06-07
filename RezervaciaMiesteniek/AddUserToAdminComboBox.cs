@@ -90,7 +90,7 @@ namespace RezervaciaMiesteniek
 
 
 
-        public  List<string> add_ticket_to_admin_comobobox(string userID)
+        public  List<string> add_ticket_to_admin_combobox(string userID)
         {
             List<string> list = new List<string>();
             if (OpenCon())
