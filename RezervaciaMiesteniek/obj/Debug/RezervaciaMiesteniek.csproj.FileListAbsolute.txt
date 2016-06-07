@@ -15,6 +15,7 @@ C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\Rezervac
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\bin\Debug\RezervaciaMiesteniek.exe.config
 C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
 C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
@@ -32,3 +33,5 @@ C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug
 C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.MainForm.resources
 C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.Properties.Resources.resources
 C:\Users\miltos m\Downloads\planereservation-alfa\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
+=======
+>>>>>>> aa32864014aed9a989976cf8b285088c192d195b

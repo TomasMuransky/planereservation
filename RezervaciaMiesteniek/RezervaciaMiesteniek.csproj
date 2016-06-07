@@ -123,7 +123,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveReservation.cs" />
+<<<<<<< HEAD
     <Compile Include="WorkWithAdminWindow.cs" />
+=======
+    <Compile Include="Work_with_planes.cs" />
+>>>>>>> aa32864014aed9a989976cf8b285088c192d195b
     <EmbeddedResource Include="AddReservationWindow.resx">
       <DependentUpon>AddReservationWindow.cs</DependentUpon>
     </EmbeddedResource>
