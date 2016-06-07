@@ -111,17 +111,17 @@ namespace RezervaciaMiesteniek
             else //tu budu funkcie vypisujuce chybove hlasky
             {
                 if (login.Equals(""))
-                    label5.Text = "login is required";
+                    label5.Text = "username is required";
                 if (!password.Equals(password_werification))
-                    label7.Text = "passwor verification failed";
+                    label7.Text = "password verification failed";
                 if (password.Equals(""))
                     label6.Text = "password is required";
                 if (!phoneReg(phone))
-                    label12.Text = "bad phone format";
+                    label12.Text = "wrong telephone number format";
                 if (!mailReg(email))
-                    label8.Text = "bad e-mail format";
+                    label8.Text = "wrong e-mail adress format";
                 if (first_name.Equals(""))
-                    label13.Text = "first name is require";
+                    label13.Text = "first name is required";
                 if (last_name.Equals(""))
                     label14.Text = "last name is required";
                

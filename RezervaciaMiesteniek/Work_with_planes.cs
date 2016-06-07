@@ -66,7 +66,7 @@ namespace RezervaciaMiesteniek
 
                     while (reader.Read())
                     {
-                        string res = "fly ID: ";
+                        string res = "flight ID: ";
                         res += reader["planeId"].ToString();
                         res += " departure: ";
 

@@ -43,7 +43,7 @@ namespace RezervaciaMiesteniek
 
         private void button1_Click(object sender, EventArgs e) //remove reservation
         {
-            DialogResult result = MessageBox.Show("Are you sure that you want to remove your reservation?", "warning", MessageBoxButtons.YesNo);
+            DialogResult result = MessageBox.Show("Are you sure you want to remove your reservation?", "warning", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
                 if (comboBox2.SelectedItem != null)
@@ -73,7 +73,7 @@ namespace RezervaciaMiesteniek
 
         private void button2_Click(object sender, EventArgs e) //remove user
         {
-            DialogResult result = MessageBox.Show("Are you sure that you want to remove the selected user?", "you might regret it ", MessageBoxButtons.YesNo);
+            DialogResult result = MessageBox.Show("Are you sure you want to remove the selected user?", "you might regret it ", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
                 if (comboBox1.SelectedItem != null)
@@ -135,7 +135,7 @@ namespace RezervaciaMiesteniek
 
             if (comboBox3.SelectedItem != null)
             {
-                DialogResult result = MessageBox.Show("Are you sure that you want to remove the fly?", "warning", MessageBoxButtons.YesNo);
+                DialogResult result = MessageBox.Show("Are you sure you want to remove the flight?", "warning", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
                     string info = comboBox3.SelectedItem.ToString();
