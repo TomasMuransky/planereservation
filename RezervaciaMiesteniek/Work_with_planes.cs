@@ -151,5 +151,29 @@ namespace RezervaciaMiesteniek
                 }
             }
         }
+
+        public void remove_reservation_from_admin(string passenger_id,string ticket_id, string plane_id, string seat_id)
+        {
+            if (OpenCon())
+            {
+                try
+                {
+                    string query = "delete from tickets where id like '"+ticket_id+"';";
+                    MySqlCommand cmd = new MySqlCommand(query,connection);
+                    cmd.ExecuteNonQuery();
+                    CloseConnection();
+                    /*******************************************************/
+                    OpenCon();
+                    query = "update seats set passengerId='0',seatIsTaken='N' where planeId like'"+plane_id+"' && seatId like'"+seat_id+"' && passengerId like '"+passenger_id+"';";
+                    MySqlCommand cmd2 = new MySqlCommand(query, connection);
+                    cmd2.ExecuteNonQuery();
+                    CloseConnection();
+                }
+                catch (MySqlException e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
+        }
     }
 }
