@@ -12,17 +12,28 @@ namespace RezervaciaMiesteniek
 {
     public partial class AdminForm : Form
     {
-        private String Admin;
+        
         
         public AdminForm()
         {
             InitializeComponent();
             AddPassengerToComboBox();
+            add_planes_to_combobox();
+            label1.Text = "";
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            string info = comboBox1.SelectedItem.ToString();
+            string[] parts = info.Split(' '); // [2] 
+            comboBox2.Items.Clear();
+            AddUserToAdminComboBox adU = new AddUserToAdminComboBox();
+            List <string> list = adU.add_ticket_to_admin_comobobox(parts[2]);
+            for (int i = 0; i< list.Count; i++)
+            {
+                comboBox2.Items.Add(list[i]);
+            }
+
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -57,6 +68,43 @@ namespace RezervaciaMiesteniek
             for(int i=0;i<list.Count;i++)
             {
                 comboBox1.Items.Add(list[i]);
+            }
+        }
+
+        private void add_planes_to_combobox()
+        {
+            comboBox3.Items.Clear();
+            Work_with_planes planes = new Work_with_planes();
+            List<string> list = planes.add_plane_list_listbox();
+            for (int i = 0; i < list.Count; i++)
+            {
+                comboBox3.Items.Add(list[i]);
+            }
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string info = comboBox3.SelectedItem.ToString();
+            string[] parts = info.Split(' '); // id = [2];
+            Work_with_planes work = new Work_with_planes();
+            int cout = work.get_count_of_reservated_seats(parts[2]);
+            label1.Text = "resevated seats: " + cout + "-80";
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+            if (comboBox3.SelectedItem != null)
+            {
+                DialogResult result = MessageBox.Show("Are you sure to remove fly?", "warning", MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
+                {
+                    string info = comboBox3.SelectedItem.ToString();
+                    string[] parts = info.Split(' '); // id = [2];
+                    Work_with_planes work = new Work_with_planes();
+                    work.remove_fly(parts[2]);
+                    add_planes_to_combobox();
+                }
             }
         }
     }

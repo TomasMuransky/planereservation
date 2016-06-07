@@ -40,7 +40,7 @@ namespace RezervaciaMiesteniek
         {
             if (listBox1.SelectedItem != null)
             {
-                result = MessageBox.Show("You are shure to remove reservation?", "varning", MessageBoxButtons.YesNo);
+                result = MessageBox.Show("Are you sure to remove reservation?", "warning", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
                 {
                     //z tade sa zavola funkcia na odstranenie rezervacie
@@ -93,6 +93,12 @@ namespace RezervaciaMiesteniek
             {
                 listBox1.Items.Add(list[i]);
             }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Change_mail_phone ch_mail_phone = new Change_mail_phone(userID);
+            ch_mail_phone.ShowDialog();
         }
     }
 }

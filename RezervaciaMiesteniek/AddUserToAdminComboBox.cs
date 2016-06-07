@@ -72,9 +72,9 @@ namespace RezervaciaMiesteniek
                     {
                         result = "passenger id: ";
                         result += rdr["id"].ToString();
-                        result += "passenger first name: ";
+                        result += " passenger first name: ";
                         result += rdr["firstName"].ToString();
-                        result += "passenger last name: ";
+                        result += " passenger last name: ";
                         result += rdr["lastName"].ToString();
 
                         list.Add(result);
@@ -87,5 +87,46 @@ namespace RezervaciaMiesteniek
             }
             return list;
         } 
+
+
+
+        public  List<string> add_ticket_to_admin_comobobox(string userID)
+        {
+            List<string> list = new List<string>();
+            if (OpenCon())
+            {
+                string query = "select * from tickets where passengerId like '"+userID+"';";
+                try
+                {
+                    MySqlCommand cmd = new MySqlCommand(query, connection);
+                    MySqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        string res = "ticket ID: ";
+                        res += reader["id"].ToString();
+                        res += " passenger ID: ";
+                        res += reader["passengerId"].ToString();
+                        res += " plane ID: ";
+                        res += reader["planeId"].ToString();
+                        res += " seat ID: ";
+                        res += reader["seatId"].ToString();
+                        res += " date of buing: ";
+
+                        string d = reader["DateOfBuying"].ToString();
+                        DateTime dat = DateTime.Parse(d);
+                        res += dat.ToString("dd.MM.yyyy HH:mm:ss");
+
+                        list.Add(res);
+                    }
+                }
+                catch(MySqlException e)
+                {
+                    Console.WriteLine(e.ToString());
+                }
+                CloseConnection();
+            }
+           
+            return list;
+        }
     }
 }
