@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <id>1</id>
+    <firstName>Tomi</firstName>
+    <lastName>Stejsky</lastName>
+    <id1>1</id1>
+    <mail>tomi@stejsky.sa.sk</mail>
+    <phone>0949159789</phone>
+    <id2>1</id2>
+    <passengerId>1</passengerId>
+    <username>root</username>
+    <password>heslo</password>
+    <isAdmin>Y</isAdmin>
+  </Table>
+  <Table>
+    <id>2</id>
+    <firstName>Tomáš</firstName>
+    <lastName>Muránsky</lastName>
+    <id1>2</id1>
+    <mail>muransky.tomas@gmail</mail>
+    <phone>0911432683</phone>
+    <id2>2</id2>
+    <passengerId>2</passengerId>
+    <username>Muro</username>
+    <password>heslo</password>
+    <isAdmin>Y</isAdmin>
+  </Table>
+  <Table>
+    <id>3</id>
+    <firstName>Tomi</firstName>
+    <lastName>Stejsky</lastName>
+    <id1>3</id1>
+    <mail>tomi.stejksky@mail.s</mail>
+    <phone>0604123456</phone>
+    <id2>3</id2>
+    <passengerId>3</passengerId>
+    <username>tomi</username>
+    <password>123</password>
+    <isAdmin>N</isAdmin>
+  </Table>
+</NewDataSet>
