@@ -14,19 +14,6 @@
     <isAdmin>Y</isAdmin>
   </Table>
   <Table>
-    <id>2</id>
-    <firstName>Tomáš</firstName>
-    <lastName>Muránsky</lastName>
-    <id1>2</id1>
-    <mail>muransky.tomas@gmail</mail>
-    <phone>0911432683</phone>
-    <id2>2</id2>
-    <passengerId>2</passengerId>
-    <username>Muro</username>
-    <password>heslo</password>
-    <isAdmin>Y</isAdmin>
-  </Table>
-  <Table>
     <id>3</id>
     <firstName>Tomi</firstName>
     <lastName>Stejsky</lastName>
@@ -38,5 +25,18 @@
     <username>tomi</username>
     <password>123</password>
     <isAdmin>N</isAdmin>
+  </Table>
+  <Table>
+    <id>4</id>
+    <firstName>Tomáš</firstName>
+    <lastName>Muránsky</lastName>
+    <id1>4</id1>
+    <mail>muransky.tomas@gmail</mail>
+    <phone>0911432683</phone>
+    <id2>4</id2>
+    <passengerId>4</passengerId>
+    <username>Muro</username>
+    <password>heslo</password>
+    <isAdmin>Y</isAdmin>
   </Table>
 </NewDataSet>
