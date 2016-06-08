@@ -14,27 +14,14 @@
     <isAdmin>Y</isAdmin>
   </Table>
   <Table>
-    <id>3</id>
-    <firstName>Tomi</firstName>
-    <lastName>Stejsky</lastName>
-    <id1>3</id1>
-    <mail>tomi.stejksky@mail.s</mail>
-    <phone>0604123456</phone>
-    <id2>3</id2>
-    <passengerId>3</passengerId>
-    <username>tomi</username>
-    <password>123</password>
-    <isAdmin>N</isAdmin>
-  </Table>
-  <Table>
-    <id>4</id>
+    <id>2</id>
     <firstName>Tomáš</firstName>
     <lastName>Muránsky</lastName>
-    <id1>4</id1>
+    <id1>2</id1>
     <mail>muransky.tomas@gmail</mail>
     <phone>0911432683</phone>
-    <id2>4</id2>
-    <passengerId>4</passengerId>
+    <id2>2</id2>
+    <passengerId>2</passengerId>
     <username>Muro</username>
     <password>heslo</password>
     <isAdmin>Y</isAdmin>
