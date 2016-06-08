@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,6 +54,21 @@ namespace RezervaciaMiesteniek
             {
                 return false;
             }
+        }
+
+        public bool GenerateXml()
+        {
+            if (OpenCon()) {
+                DataSet ds = new DataSet();
+                string sqlQuery = "Select * from passenger inner join passenger_detail on passenger.id = passenger_detail.id inner join passenger_login on passenger.id = passenger_login.id;";
+                MySqlCommand cmd = new MySqlCommand(sqlQuery, connection);
+                MySqlDataAdapter adapter = new MySqlDataAdapter(sqlQuery, connection);
+                adapter.Fill(ds);
+                CloseConnection();
+                ds.WriteXml("Users.xml");
+                return true;
+            }
+            return false;
         }
 
         private string getPassengerID() // pomocna funkcia na ziskanie id passangera ktore sa pouzije na dalsie inserty;

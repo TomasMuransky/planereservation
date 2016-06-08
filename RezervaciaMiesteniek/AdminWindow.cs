@@ -12,14 +12,26 @@ namespace RezervaciaMiesteniek
 {
     public partial class AdminForm : Form
     {
-        
-        
+        DataBase connect;
+        private string db_conn_str = "";
+
         public AdminForm()
         {
             InitializeComponent();
             AddPassengerToComboBox();
             add_planes_to_combobox();
             label1.Text = "";
+            /*****************************************/
+            try
+            {
+                db_conn_str = System.IO.File.ReadAllText("sqlConnectivity.conf");
+            }
+            catch
+            {
+                System.Windows.Forms.MessageBox.Show("file: sqlConnectivity.conf not found!");
+                System.Windows.Forms.Application.Exit();
+            }
+            connect = new DataBase();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -28,17 +40,24 @@ namespace RezervaciaMiesteniek
             string[] parts = info.Split(' '); // [2] 
             comboBox2.Items.Clear();
             AddUserToAdminComboBox adU = new AddUserToAdminComboBox();
-            List <string> list = adU.add_ticket_to_admin_combobox(parts[2]);
-            for (int i = 0; i< list.Count; i++)
+            List<string> list = adU.add_ticket_to_admin_combobox(parts[2]);
+            for (int i = 0; i < list.Count; i++)
             {
                 comboBox2.Items.Add(list[i]);
             }
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e) //export to xml
         {
-
+            if (connect.GenerateXml())
+            {
+                MessageBox.Show("XML was created");
+            }
+            else
+            {
+                MessageBox.Show("Communication with database failed");
+            }
         }
 
         private void button1_Click(object sender, EventArgs e) //remove reservation
@@ -98,13 +117,13 @@ namespace RezervaciaMiesteniek
         {
 
         }
-        
+
         private void AddPassengerToComboBox()
         {
             AddUserToAdminComboBox adm = new AddUserToAdminComboBox();
             List<string> list = adm.ReadUsers();
             comboBox1.Items.Clear();
-            for(int i=0;i<list.Count;i++)
+            for (int i = 0; i < list.Count; i++)
             {
                 comboBox1.Items.Add(list[i]);
             }
@@ -145,10 +164,9 @@ namespace RezervaciaMiesteniek
                     add_planes_to_combobox();
                 }
             }
-            
-            
+
+
         }
+
     }
-
-
 }
