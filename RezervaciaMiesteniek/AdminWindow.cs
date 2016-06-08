@@ -14,13 +14,15 @@ namespace RezervaciaMiesteniek
     {
         DataBase connect;
         private string db_conn_str = "";
+        private string my_id;
 
-        public AdminForm()
+        public AdminForm(string id)
         {
             InitializeComponent();
             AddPassengerToComboBox();
             add_planes_to_combobox();
             label1.Text = "";
+            this.my_id = id;
             /*****************************************/
             try
             {
@@ -99,8 +101,13 @@ namespace RezervaciaMiesteniek
                 {
                     string source = comboBox1.SelectedItem.ToString();
                     string[] parts = source.Split(' '); //passenger id=[2];
-                    Work_with_planes work = new Work_with_planes();
-                    work.remove_user_from_admin(parts[2]);
+                    if (!parts[2].Equals(my_id))
+                    {
+                        Work_with_planes work = new Work_with_planes();
+                        work.remove_user_from_admin(parts[2]);
+                    }
+                    else
+                        MessageBox.Show("You cannot delete yourself");
                     /************************************/
                     comboBox2.Items.Clear();
                     AddPassengerToComboBox();
