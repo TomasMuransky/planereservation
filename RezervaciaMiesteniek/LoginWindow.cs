@@ -34,7 +34,7 @@ namespace RezervaciaMiesteniek
                 userID = user.getUserId(login); //ziskanie id pouzivatela
                 if (user.isAdmin(userID))
                 {
-                    AdminForm adw = new AdminForm();
+                    AdminForm adw = new AdminForm(userID);
                     this.Hide();
                     adw.ShowDialog();
                 }
