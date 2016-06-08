@@ -151,9 +151,9 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(9, 47);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
+            this.label3.Size = new System.Drawing.Size(55, 13);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Tickets list:";
+            this.label3.Text = "Ticket list:";
             // 
             // label4
             // 
@@ -162,9 +162,9 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(9, 74);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(43, 13);
+            this.label4.Size = new System.Drawing.Size(52, 13);
             this.label4.TabIndex = 11;
-            this.label4.Text = "Flys list:";
+            this.label4.Text = "Plane list:";
             // 
             // button5
             // 
@@ -172,7 +172,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(127, 23);
             this.button5.TabIndex = 12;
-            this.button5.Text = "Remove Fly";
+            this.button5.Text = "Remove Flight";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 

@@ -90,7 +90,7 @@ namespace RezervaciaMiesteniek
 
 
 
-        public  List<string> add_ticket_to_admin_comobobox(string userID)
+        public  List<string> add_ticket_to_admin_combobox(string userID)
         {
             List<string> list = new List<string>();
             if (OpenCon())
@@ -110,7 +110,7 @@ namespace RezervaciaMiesteniek
                         res += reader["planeId"].ToString();
                         res += " seat ID: ";
                         res += reader["seatId"].ToString();
-                        res += " date of buing: ";
+                        res += " date of purchase: ";
 
                         string d = reader["DateOfBuying"].ToString();
                         DateTime dat = DateTime.Parse(d);
