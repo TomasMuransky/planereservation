@@ -98,7 +98,9 @@ namespace RezervaciaMiesteniek
         private void button5_Click(object sender, EventArgs e)
         {
             Change_mail_phone ch_mail_phone = new Change_mail_phone(userID);
+            this.Hide();
             ch_mail_phone.ShowDialog();
+            this.Show();
         }
     }
 }

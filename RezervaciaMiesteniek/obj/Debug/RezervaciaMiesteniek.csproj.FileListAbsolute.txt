@@ -14,4 +14,3 @@ C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\Rezervac
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csproj.GenerateResource.Cache
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.exe
 C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.pdb
-C:\Users\tomi\Desktop\git_verzia_letenky\RezervaciaMiesteniek\obj\Debug\RezervaciaMiesteniek.csprojResolveAssemblyReference.cache

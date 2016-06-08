@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Change_mail_phone));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -38,14 +39,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(56, 34);
+            this.textBox1.Location = new System.Drawing.Point(333, 204);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(166, 20);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(56, 107);
+            this.textBox2.Location = new System.Drawing.Point(333, 230);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(166, 20);
             this.textBox2.TabIndex = 1;
@@ -53,24 +54,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 37);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(274, 207);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 13);
+            this.label1.Size = new System.Drawing.Size(53, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Mail";
+            this.label1.Text = "New mail:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 114);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(262, 233);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.Size = new System.Drawing.Size(65, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Phone";
+            this.label2.Text = "New phone:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(15, 238);
+            this.button1.Location = new System.Drawing.Point(337, 256);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
@@ -80,7 +87,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(96, 238);
+            this.button2.Location = new System.Drawing.Point(418, 256);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 5;
@@ -92,14 +99,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 273);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(792, 506);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.MaximumSize = new System.Drawing.Size(800, 533);
+            this.MinimumSize = new System.Drawing.Size(800, 533);
             this.Name = "Change_mail_phone";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Change_mail_phone";
             this.ResumeLayout(false);
             this.PerformLayout();
