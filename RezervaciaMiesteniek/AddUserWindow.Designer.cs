@@ -310,7 +310,7 @@
             this.MinimumSize = new System.Drawing.Size(800, 533);
             this.Name = "AddUserWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Create new account";
+            this.Text = "FlyBy";
             this.ResumeLayout(false);
             this.PerformLayout();
 

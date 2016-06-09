@@ -199,7 +199,7 @@
             this.MinimumSize = new System.Drawing.Size(800, 533);
             this.Name = "AdminForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AdminForm";
+            this.Text = "FlyBy";
             this.ResumeLayout(false);
             this.PerformLayout();
 

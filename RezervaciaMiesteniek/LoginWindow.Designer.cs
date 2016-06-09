@@ -117,7 +117,7 @@
             this.MinimumSize = new System.Drawing.Size(800, 533);
             this.Name = "LoginWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "User Login";
+            this.Text = "FlyBy";
             this.Load += new System.EventHandler(this.LoginWindow_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

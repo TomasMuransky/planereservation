@@ -124,7 +124,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(792, 506);
+            this.ClientSize = new System.Drawing.Size(784, 494);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label2);
@@ -137,7 +137,7 @@
             this.MinimumSize = new System.Drawing.Size(800, 533);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainForm";
+            this.Text = "FlyBy";
             this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
