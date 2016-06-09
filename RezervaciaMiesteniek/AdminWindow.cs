@@ -36,10 +36,10 @@ namespace RezervaciaMiesteniek
             connect = new DataBase();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e) //user name list
         {
             string info = comboBox1.SelectedItem.ToString();
-            string[] parts = info.Split(' '); // [2] 
+            string[] parts = info.Split(' '); // user_id=[2] 
             comboBox2.Items.Clear();
             AddUserToAdminComboBox adU = new AddUserToAdminComboBox();
             List<string> list = adU.add_ticket_to_admin_combobox(parts[2]);
@@ -47,7 +47,7 @@ namespace RezervaciaMiesteniek
             {
                 comboBox2.Items.Add(list[i]);
             }
-
+            show_user_info(parts[2]);
         }
 
         private void button4_Click(object sender, EventArgs e) //export to xml
@@ -171,9 +171,22 @@ namespace RezervaciaMiesteniek
                     add_planes_to_combobox();
                 }
             }
-
-
         }
 
+        private void show_user_info(string user_id)
+        {
+            listBox1.Items.Clear();
+            AddUserToAdminComboBox get_list = new AddUserToAdminComboBox();
+            string[] list = get_list.get_user_info(user_id); //[0] = First name [1] = Last Name [2] = mail [3] = phone [4] = username [5] = password [6] = is_admin [7] = massenger_id
+
+            listBox1.Items.Add("First name: " + list[0]);
+            listBox1.Items.Add("Last name: " + list[1]);
+            listBox1.Items.Add("E-mail: " + list[2]);
+            listBox1.Items.Add("Phone: " + list[3]);
+            listBox1.Items.Add("Username: " + list[4]);
+            listBox1.Items.Add("Password: " + list[5]);
+            listBox1.Items.Add("Admin: " + list[6]);
+            listBox1.Items.Add("Passenger ID: " + list[7]);
+        }
     }
 }
