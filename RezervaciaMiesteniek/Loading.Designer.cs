@@ -53,7 +53,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Loading";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Loading";
+            this.Text = "FlyBy";
             this.Shown += new System.EventHandler(this.Loading_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();

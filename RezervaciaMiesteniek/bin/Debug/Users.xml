@@ -14,16 +14,16 @@
     <isAdmin>Y</isAdmin>
   </Table>
   <Table>
-    <id>2</id>
+    <id>5</id>
     <firstName>Tomáš</firstName>
     <lastName>Muránsky</lastName>
-    <id1>2</id1>
+    <id1>5</id1>
     <mail>muransky.tomas@gmail</mail>
     <phone>0911432683</phone>
-    <id2>2</id2>
-    <passengerId>2</passengerId>
-    <username>Muro</username>
-    <password>heslo</password>
+    <id2>5</id2>
+    <passengerId>5</passengerId>
+    <username>fraps36</username>
+    <password>muransky</password>
     <isAdmin>Y</isAdmin>
   </Table>
   <Table>
