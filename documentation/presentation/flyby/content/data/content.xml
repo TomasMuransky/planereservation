@@ -16,7 +16,7 @@
       </languages>
       <mode type="normal"/>
     </settings>
-    <object id="163_45341393" type="button" x="-368.3954686288196" y="-94.04045940077886" r="-2.0059904193460137e-61" s="44.43596886458669" class="invisible">
+    <object id="163_45341393" type="button" x="-368.3954686288196" y="-94.04045940077886" r="-2.0059904193460134e-61" s="44.43596886458669" class="invisible">
       <type>invisible</type>
       <size>
         <w>932.9857703208615</w>
@@ -27,11 +27,11 @@
         <parentTemplate>worldmapdots-light</parentTemplate>
       </meta>
     </object>
-    <object id="13" type="image" x="11778.078333505631" y="9752.607351294833" r="0" s="29.232393266534324">
+    <object id="13" type="image" x="11778.078333505631" y="9752.607351294831" r="0" s="29.232393266534324">
       <source w="240" h="195">4572341839<url>4572341839.png</url></source>
       <sourceUrl>canstock16435398.png</sourceUrl>
     <resource><id>4572341839</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/d/6/1fd663e613e3acd54382fae1da399215978af.png</url></resource></object>
-    <object id="1_30863873" type="text" x="16630.450334916106" y="8858.859437652009" r="8.847325928003396e-61" s="120.90178914003421" class="head">
+    <object id="1_30863873" type="text" x="16630.450334916106" y="8858.859437652009" r="8.847325928003395e-61" s="120.9017891400342" class="head">
       <height>27.59765625</height>
       <width>68.00504854173576</width>
       <p align="right">
@@ -45,9 +45,9 @@
         <text color="16777215"><![CDATA[Let's book a flight]]></text>
       </p>
     </object>
-    <object id="29_30863873" type="shape" x="-7483.271939753888" y="-840.5529192083559" r="11.548089515542731" s="13.070651994193339" class="line3">
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
+    <object id="29_30863873" type="shape" x="-7483.271939753888" y="-840.5529192083559" r="11.54808951554273" s="13.07065199419334" class="line3">
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
       <geom type="arrow">
         <sp>-360.83730589053624 -59.42646401230338</sp>
         <ep>360.8373058905363 -59.42646401230338</ep>
@@ -60,8 +60,8 @@
       </meta>
     </object>
     <object id="30_30863873" type="shape" x="571.2680568856414" y="-4747.35781806071" r="-42.80040242189836" s="13.070651994193346" class="line3">
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
       <geom type="arrow">
         <sp>-250.84486836397917 53.9445458998904</sp>
         <ep>250.84486836397917 53.9445458998904</ep>
@@ -74,8 +74,8 @@
       </meta>
     </object>
     <object id="33_30863873" type="shape" x="-16032.826646499529" y="-6481.282542780055" r="62.41063498431863" s="13.070651994193351" class="line3">
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
       <geom type="arrow">
         <sp>-222.46087461832224 -32.72078429761403</sp>
         <ep>222.46087461832224 -32.72078429761403</ep>
@@ -102,7 +102,7 @@
       <source w="240" h="195">4572370888<url>4572370888.png</url></source>
       <sourceUrl>canstock16435398.png</sourceUrl>
     <resource><id>4572370888</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/5/8/08301e95c8de1fef7da2fd7841d4836c910b3.png</url></resource></object>
-    <object id="46_30863873" type="button" x="-12774.910350732907" y="-3591.9696851344033" r="-1.767817277485347e-45" s="3.397734379736045" class="roundrect">
+    <object id="46_30863873" type="button" x="-12774.910350732907" y="-3591.9696851344033" r="-1.7678172774853472e-45" s="3.397734379736045" class="roundrect">
       <type>roundrect</type>
       <size>
         <w>800.5041283369064</w>
@@ -113,7 +113,7 @@
         <parentTemplate>worldmapdots-light</parentTemplate>
       </meta>
     </object>
-    <object id="48_30863873" type="text" x="-12762.049999999997" y="-4355.3" r="-1.767817277485348e-45" s="7.352109974366971" class="strong">
+    <object id="48_30863873" type="text" x="-12762.049999999996" y="-4355.3" r="-1.767817277485348e-45" s="7.352109974366971" class="strong">
       <height>27.59765625</height>
       <width>298.2405323050924</width>
       <p align="center">
@@ -123,7 +123,7 @@
         <layout-element role="body"/>
       </layout>
     </object>
-    <object id="50_30863873" type="button" x="-1163.066279246709" y="-877.749608145252" r="-1.7678172774853465e-45" s="3.3914491860935114" class="roundrect">
+    <object id="50_30863873" type="button" x="-1163.066279246709" y="-877.749608145252" r="-1.7678172774853465e-45" s="3.391449186093511" class="roundrect">
       <type>roundrect</type>
       <size>
         <w>800.5041283369064</w>
@@ -134,7 +134,7 @@
         <parentTemplate>worldmapdots-light</parentTemplate>
       </meta>
     </object>
-    <object id="55_30863873" type="button" x="4998.381197711107" y="-6456.043296797917" r="-1.7678172774853462e-45" s="3.387788686268369" class="roundrect">
+    <object id="55_30863873" type="button" x="14542.181197711107" y="-6122.093296797917" r="-1.7678172774853462e-45" s="3.387788686268369" class="roundrect">
       <type>roundrect</type>
       <size>
         <w>800.5041283369064</w>
@@ -145,40 +145,40 @@
         <parentTemplate>worldmapdots-light</parentTemplate>
       </meta>
     </object>
-    <object id="3" type="button" x="14444.27947660937" y="-7050.710377331822" r="-1.7678172774853465e-45" s="3.2810128988356317" class="roundrect">
+    <object id="3" type="button" x="4908.32947660937" y="-6462.410377331821" r="-1.7678172774853465e-45" s="3.2810128988356317" class="roundrect">
       <type>roundrect</type>
       <size>
         <w>800</w>
         <h>572.0314048936508</h>
       </size>
     </object>
-    <object id="4" type="button" x="16984.5596085438" y="3495.237765973492" r="-1.7678172774853472e-45" s="3.017461677145781" class="roundrect">
+    <object id="4" type="button" x="6275.659608543801" y="-914.4622340265079" r="-1.7678172774853472e-45" s="3.017461677145781" class="roundrect">
       <type>roundrect</type>
       <size>
         <w>877.775390625</w>
         <h>600</h>
       </size>
     </object>
-    <object id="5" type="button" x="-7748.625769012544" y="3548.9981555236186" r="-1.767817277485347e-45" s="2.9202311784894857" class="roundrect">
+    <object id="5" type="button" x="-7748.625769012544" y="3548.9981555236186" r="-1.7678172774853472e-45" s="2.9202311784894857" class="roundrect">
       <type>roundrect</type>
       <size>
         <w>800</w>
         <h>600</h>
       </size>
     </object>
-    <object id="6" type="button" x="-15519.456832872003" y="7864.794554627284" r="-1.767817277485347e-45" s="3.0141910404719114" class="roundrect">
+    <object id="6" type="button" x="-15519.456832872003" y="7864.794554627284" r="-1.7678172774853472e-45" s="3.014191040471911" class="roundrect">
       <type>roundrect</type>
       <size>
         <w>800</w>
         <h>600</h>
       </size>
     </object>
-    <object id="7" type="shape" x="9793.91472161392" y="-5890.322623474481" r="-177.15449453877198" s="13.070651994193351" class="line3">
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
+    <object id="7" type="shape" x="9708.940523403882" y="-5890.530722676394" r="-177.222304687407" s="13.070651994193355" class="line3">
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
       <geom type="arrow">
-        <sp>252.74944532316866 25.225151032169478</sp>
-        <ep>-252.74944532316866 25.225151032169407</ep>
+        <sp>259.2734003154059 25.22515103216946</sp>
+        <ep>-259.27340031540587 25.225151032169425</ep>
         <b>50.450302064338885</b>
         <t>8</t>
       </geom>
@@ -187,12 +187,12 @@
         <parentTemplate>worldmapdots-light</parentTemplate>
       </meta>
     </object>
-    <object id="9" type="shape" x="11073.881659329594" y="5435.103849986786" r="176.50240852906967" s="13.070651994193351" class="line3">
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
+    <object id="9" type="shape" x="11314.318077171674" y="5315.914011756892" r="175.26526858161472" s="13.070651994193351" class="line3">
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
       <geom type="arrow">
-        <sp>-351.11000592949796 48.24949837769431</sp>
-        <ep>351.1100059294979 48.24949837769431</ep>
+        <sp>-369.0714915549407 48.24949837769431</sp>
+        <ep>369.07149155494074 48.24949837769431</ep>
         <b>-96.49899675538862</b>
         <t>8</t>
       </geom>
@@ -201,12 +201,12 @@
         <parentTemplate>worldmapdots-light</parentTemplate>
       </meta>
     </object>
-    <object id="10" type="shape" x="-1432.011288545811" y="3774.473819922561" r="-172.4767004672906" s="13.070651994193355" class="line3">
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
+    <object id="10" type="shape" x="-1432.011288545811" y="3774.473819922561" r="-172.4767004672906" s="13.070651994193357" class="line3">
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
       <geom type="arrow">
-        <sp>-386.5368251855553 -25.225151032169446</sp>
-        <ep>386.5368251855553 -25.225151032169446</ep>
+        <sp>-386.5368251855553 -25.22515103216945</sp>
+        <ep>386.5368251855553 -25.22515103216945</ep>
         <b>50.450302064338885</b>
         <t>8</t>
       </geom>
@@ -215,12 +215,12 @@
         <parentTemplate>worldmapdots-light</parentTemplate>
       </meta>
     </object>
-    <object id="11" type="shape" x="-10705.935497829267" y="6824.217803952314" r="-27.93914515761121" s="13.070651994193344" class="line3">
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
+    <object id="11" type="shape" x="-10640.605306677913" y="7096.394904004383" r="-32.174327316229494" s="13.070651994193343" class="line3">
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
       <geom type="arrow">
-        <sp>272.74387140265975 -53.08228216431156</sp>
-        <ep>-272.7438714026598 -53.082282164311735</ep>
+        <sp>282.7770545233614 -53.08228216431159</sp>
+        <ep>-282.77705452336147 -53.08228216431169</ep>
         <b>-106.16456432862329</b>
         <t>8</t>
       </geom>
@@ -229,23 +229,23 @@
         <parentTemplate>worldmapdots-light</parentTemplate>
       </meta>
     </object>
-    <object id="12" type="shape" x="15873.679781725596" y="10663.590950688236" r="0" s="9.336179995852397" class="line3">
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
+    <object id="12" type="shape" x="15873.679781725596" y="10663.590950688236" r="0" s="9.336179995852396" class="line3">
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
       <geom type="line">
         <sp>-553.636243735137 0</sp>
         <ep>553.636243735137 0</ep>
         <t>8</t>
       </geom>
     </object>
-    <object id="15" type="text" x="-16728.708580713977" y="-10743.097803405362" r="4.232011128363949e-60" s="14.743980480936255" class="head">
+    <object id="15" type="text" x="-16728.708580713977" y="-10743.097803405362" r="4.232011128363949e-60" s="14.743980480936257" class="head">
       <height>27.59765625</height>
       <width>68.00504854173576</width>
       <p align="right">
         <text color="1657497"><![CDATA[FlyBy]]></text>
       </p>
     </object>
-    <object id="16" type="text" x="-16849.11462724515" y="-10426.042936491363" r="1.112332131353028e-59" s="5.809878258979336" class="strong">
+    <object id="16" type="text" x="-16849.11462724515" y="-10426.042936491363" r="1.1123321313530277e-59" s="5.809878258979336" class="strong">
       <height>27.59765625</height>
       <width>204.99336282348676</width>
       <p align="right">
@@ -253,8 +253,8 @@
       </p>
     </object>
     <object id="17" type="shape" x="-16610.744819499392" y="-10522.379528137018" r="1.0919323998296464e-14" s="0.8132483670333137" class="line3">
-      <style gradEndColor="6557470" color="6557470" borderColor="6557470" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="6557470"/>
-      <style gradEndColor="6557470" color="6557470" borderColor="6557470" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="6557470"/>
+      <style gradStartAlpha="1" color="6557470" borderColor="6557470" gradStartColor="6557470" gradEndAlpha="1" gradEndColor="6557470"/>
+      <style gradStartAlpha="1" color="6557470" borderColor="6557470" gradStartColor="6557470" gradEndAlpha="1" gradEndColor="6557470"/>
       <geom type="line">
         <sp>-508.3700207407931 0</sp>
         <ep>508.3700207407931 0</ep>
@@ -294,7 +294,7 @@
       <source w="788" h="527">4573321179<url>4573321179.jpg</url></source>
       <sourceUrl>reg.jpg</sourceUrl>
     <resource><id>4573321179</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/b/5/601f54b49edd0557e6110cc772120075f2d1f.jpg</url></resource></object>
-    <object id="4_68103619" type="text" x="5016.9" y="-7238.099999999999" r="-1.7678172774853487e-45" s="7.330589212596481" class="strong">
+    <object id="4_68103619" type="text" x="14560.699999999997" y="-6904.149999999999" r="-1.7678172774853493e-45" s="7.33058921259648" class="strong">
       <height>27.59765625</height>
       <width>298.2405323050924</width>
       <p align="center">
@@ -304,29 +304,29 @@
         <layout-element role="body"/>
       </layout>
     </object>
-    <object id="5_68103619" type="image" x="-12773.700000000003" y="-3301.3499999999995" r="-1.7678172774853475e-45" s="2.324807968639787">
+    <object id="5_68103619" type="image" x="-12773.700000000004" y="-3301.3499999999995" r="-1.7678172774853478e-45" s="2.324807968639787">
       <source w="788" h="528">4573323910<url>4573323910.jpg</url></source>
       <sourceUrl>login.jpg</sourceUrl>
     <resource><id>4573323910</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/e/7/9599e0ff554e2dfc51102a65db9dc84e6a1fe.jpg</url></resource></object>
-    <object id="6_68103619" type="image" x="5044.3" y="-6156.550000000001" r="-1.7678172774853462e-45" s="2.211729691034306">
+    <object id="6_68103619" type="image" x="14588.099999999999" y="-5822.600000000001" r="-1.767817277485347e-45" s="2.211729691034306">
       <source w="786" h="528">4573326651<url>4573326651.jpg</url></source>
       <sourceUrl>user_interface.jpg</sourceUrl>
     <resource><id>4573326651</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/3/8/6572a64bd8e9a086a35a9213e7fc9fb995310.jpg</url></resource></object>
-    <object id="7_68103619" type="text" x="4982.049999999999" y="-6946.250000000001" r="-1.767817277485347e-45" s="3.305785123966942" class="body">
+    <object id="7_68103619" type="text" x="14525.849999999999" y="-6612.3" r="-1.7678172774853475e-45" s="3.305785123966941" class="body">
       <height>110.390625</height>
       <width>552</width>
       <p align="center">
         <text><![CDATA[User has simple interface with screen of his tickets reservations and control buttons for more actions like a remove reservation, change password and change mail / phone.]]></text>
       </p>
     </object>
-    <object id="8_68103619" type="text" x="-1167.0000000000002" y="-1398.55" r="-1.767817277485347e-45" s="3.305785123966942" class="body">
+    <object id="8_68103619" type="text" x="-1167.0000000000002" y="-1398.55" r="-1.7678172774853472e-45" s="3.305785123966942" class="body">
       <height>55.1953125</height>
       <width>552</width>
       <p align="center">
         <text><![CDATA[Registration is simple process where user fill informations to form. ]]></text>
       </p>
     </object>
-    <object id="9_68103619" type="text" x="14417.100000000002" y="-7863.100000000001" r="-1.767817277485348e-45" s="7.352922600697062" class="strong">
+    <object id="9_68103619" type="text" x="4881.150000000002" y="-7274.800000000005" r="-1.767817277485348e-45" s="7.352922600697062" class="strong">
       <height>27.59765625</height>
       <width>298.2405323050924</width>
       <p align="center">
@@ -336,11 +336,11 @@
         <layout-element role="body"/>
       </layout>
     </object>
-    <object id="10_68103619" type="image" x="17001.349999999995" y="3787.850000000001" r="-1.7678172774853475e-45" s="2.0000000000000004">
+    <object id="10_68103619" type="image" x="6292.449999999996" y="-621.8499999999992" r="-1.7678172774853475e-45" s="1.9999999999999982">
       <source w="788" h="528">4573335796<url>4573335796.jpg</url></source>
       <sourceUrl>add_reservation.jpg</sourceUrl>
     <resource><id>4573335796</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/7/5/531d4887e2e2b01de525eb6ea80a051c5d72e.jpg</url></resource></object>
-    <object id="11_68103619" type="text" x="17024.399999999998" y="2758.6500000000005" r="-1.767817277485348e-45" s="7.082128502407778" class="strong">
+    <object id="11_68103619" type="text" x="6315.35" y="-1651.05" r="-1.7678172774853465e-45" s="7.08212850240777" class="strong">
       <height>27.59765625</height>
       <width>298.2405323050924</width>
       <p align="center">
@@ -350,7 +350,7 @@
         <layout-element role="body"/>
       </layout>
     </object>
-    <object id="12_68103619" type="text" x="16970.95" y="3056.495312500001" r="-1.7678172774853475e-45" s="4.000000000000001" class="body">
+    <object id="12_68103619" type="text" x="6262.050000000003" y="-1353.2046874999987" r="-1.7678172774853475e-45" s="3.9999999999999964" class="body">
       <height>82.79296875</height>
       <width>552</width>
       <p align="center">
@@ -395,7 +395,7 @@
         <text><![CDATA[Calling taxi option]]></text>
       </p>
     </object>
-    <object id="15_68103619" type="text" x="-15540.606832872003" y="7117.744554627284" r="-1.767817277485348e-45" s="7.23654025425602" class="strong">
+    <object id="15_68103619" type="text" x="-15540.606832872005" y="7117.744554627284" r="-1.767817277485348e-45" s="7.23654025425602" class="strong">
       <height>27.59765625</height>
       <width>298.2405323050924</width>
       <p align="center">
@@ -405,7 +405,7 @@
         <layout-element role="body"/>
       </layout>
     </object>
-    <object id="16_68103619" type="text" x="-16187.55036157025" y="7841.453538223139" r="-1.767817277485347e-45" s="3.6363636363636362" class="body">
+    <object id="16_68103619" type="text" x="-16187.55036157025" y="7841.453538223139" r="-1.7678172774853472e-45" s="3.636363636363636" class="body">
       <height>248.37890625</height>
       <width>-168.0703125</width>
       <p>
@@ -436,7 +436,7 @@
         <text><![CDATA[Face to face]]></text>
       </p>
     </object>
-    <object id="18_68103619" type="text" x="-15034.953047520668" y="7887.4104338843" r="-1.7678172774853472e-45" s="3.6363636363636362" class="body">
+    <object id="18_68103619" type="text" x="-15034.953047520668" y="7887.4104338843" r="-1.7678172774853472e-45" s="3.636363636363636" class="body">
       <height>275.9765625</height>
       <width>-300.1640625</width>
       <p>
@@ -477,9 +477,9 @@
         <h>600</h>
       </size>
     </object>
-    <object id="21_68103619" type="shape" x="-17359.596822285792" y="6087.667587693286" r="-99.60500577061177" s="13.070651994193346" class="line3">
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
+    <object id="21_68103619" type="shape" x="-17359.596822285792" y="6087.667587693286" r="-99.60500577061175" s="13.070651994193346" class="line3">
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
       <geom type="arrow">
         <sp>-138.5489774682394 16.07587558100962</sp>
         <ep>138.5489774682394 16.07587558100962</ep>
@@ -491,7 +491,7 @@
         <parentTemplate>worldmapdots-light</parentTemplate>
       </meta>
     </object>
-    <object id="22_68103619" type="text" x="-17346.1704515625" y="3524.2149609374997" r="-1.7678172774853475e-45" s="5.324000000000002" class="head">
+    <object id="22_68103619" type="text" x="-17346.1704515625" y="3524.2149609374997" r="-1.7678172774853478e-45" s="5.324000000000002" class="head">
       <height>27.59765625</height>
       <width>-304.0078125</width>
       <p>
@@ -509,7 +509,7 @@
         <text color="1657497"><![CDATA[FlyBy]]></text>
       </p>
     </object>
-    <object id="25_68103619" type="text" x="-17301.815574995177" y="3277.7314407640138" r="1.0967383974343447e-59" s="5.38451191430191" class="strong">
+    <object id="25_68103619" type="text" x="-17301.815574995177" y="3277.7314407640138" r="1.0760452201242627e-59" s="5.38451191430191" class="strong">
       <height>27.59765625</height>
       <width>204.99336282348676</width>
       <p align="right">
@@ -517,15 +517,15 @@
       </p>
     </object>
     <object id="26_68103619" type="shape" x="-17080.897853038918" y="3188.4480681395426" r="1.0919323998296468e-14" s="0.7537069326383322" class="line3">
-      <style gradEndColor="6557470" color="6557470" borderColor="6557470" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="6557470"/>
-      <style gradEndColor="6557470" color="6557470" borderColor="6557470" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="6557470"/>
+      <style gradStartAlpha="1" color="6557470" borderColor="6557470" gradStartColor="6557470" gradEndAlpha="1" gradEndColor="6557470"/>
+      <style gradStartAlpha="1" color="6557470" borderColor="6557470" gradStartColor="6557470" gradEndAlpha="1" gradEndColor="6557470"/>
       <geom type="line">
         <sp>-508.3700207407931 0</sp>
         <ep>508.3700207407931 0</ep>
         <t>8</t>
       </geom>
     </object>
-    <object id="27_68103619" type="persistentgroup" x="-17391.144157252606" y="3090.326412193286" r="-1.767817277485347e-45" s="3.0994198879582986">
+    <object id="27_68103619" type="persistentgroup" x="-17391.144157252606" y="3090.326412193286" r="-1.7678172774853475e-45" s="3.0994198879582986">
       <m o="23_68103619"/>
       <m o="24_68103619"/>
       <m o="25_68103619"/>
@@ -538,13 +538,13 @@
         <h>600</h>
       </size>
     </object>
-    <object id="29_68103619" type="shape" x="15352.421964092398" y="-1248.034247865192" r="75.00000000000001" s="13.070651994193353" class="line3">
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
-      <style gradEndColor="16777215" color="16777215" borderColor="16777215" gradStartAlpha="1" gradEndAlpha="1" gradStartColor="16777215"/>
+    <object id="29_68103619" type="shape" x="11361.691146966938" y="-2493.129438113464" r="150.00000000000003" s="13.070651994193353" class="line3">
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
       <geom type="arrow">
-        <sp>-297.2492927154371 -32.77954775574112</sp>
-        <ep>297.24929271543715 -32.77954775574112</ep>
-        <b>65.55909551148224</b>
+        <sp>-298.2175194247169 43.480244046098264</sp>
+        <ep>298.2175194247169 43.480244046098264</ep>
+        <b>-86.96048809219653</b>
         <t>8</t>
       </geom>
       <meta>
@@ -562,15 +562,15 @@
         <layout-element role="body"/>
       </layout>
     </object>
-    <object id="32_68103619" type="image" x="5020.35" y="5338.7" r="-1.7668880911227407e-45" s="2.212255480573073">
+    <object id="32_68103619" type="image" x="5020.35" y="5338.7" r="-1.766888091122741e-45" s="2.212255480573073">
       <source w="800" h="533">4573451519<url>4573451519.png</url></source>
       <sourceUrl>plane1.png</sourceUrl>
     <resource><id>4573451519</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/5/6/67440da4c406643a396ae27821331ac5b8314.png</url></resource></object>
-    <object id="33_68103619" type="image" x="14372.85" y="-6717.850000000001" r="-1.7678172774853462e-45" s="2.433668423087193">
+    <object id="33_68103619" type="image" x="4836.900000000002" y="-6129.55" r="-1.7678172774853462e-45" s="2.433668423087193">
       <source w="787" h="527">4573455428<url>4573455428.jpg</url></source>
       <sourceUrl>admin_window.jpg</sourceUrl>
     <resource><id>4573455428</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/c/2/853e513017ff28fe6c695515aae93223bbf9c.jpg</url></resource></object>
-    <object id="34_68103619" type="text" x="14384.645314527697" y="-7565.177313708081" r="-1.767817277485346e-45" s="2.732053821460282" class="body">
+    <object id="34_68103619" type="text" x="4848.695314527695" y="-6976.877313708084" r="-1.7678172774853462e-45" s="2.732053821460282" class="body">
       <height>137.98828125</height>
       <width>552</width>
       <p align="center">
@@ -584,7 +584,7 @@
         <text><![CDATA[Design was created with a combination of red and blue colors. These colors will not interfere with the user's mood. The logo has been incorporated into the design in white because of it's expressiveness.]]></text>
       </p>
     </object>
-    <object id="36_68103619" type="text" x="-12774.912809917358" y="-4074.5142045454554" r="-1.767817277485347e-45" s="3.305785123966942" class="body">
+    <object id="36_68103619" type="text" x="-12774.912809917358" y="-4074.5142045454554" r="-1.7678172774853472e-45" s="3.305785123966942" class="body">
       <height>55.1953125</height>
       <width>-517.60546875</width>
       <p align="center">
@@ -592,6 +592,51 @@
       </p>
       <p align="center">
         <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="0_68103619" type="button" x="16397.4" y="3288.6499999999996" r="-1.7678172774853472e-45" s="2.9201894937569914" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>800</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="2_68103619" type="shape" x="11501.872957318035" y="794.7594027229345" r="-158.51748673033197" s="13.070651994193353" class="line3">
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
+      <style gradStartAlpha="1" color="16777215" borderColor="16777215" gradStartColor="16777215" gradEndAlpha="1" gradEndColor="16777215"/>
+      <geom type="arrow">
+        <sp>304.20223892552616 -19.95394736524333</sp>
+        <ep>-304.2022389255261 -19.953947365243362</ep>
+        <b>-39.907894730486696</b>
+        <t>8</t>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>worldmapdots-light</parentTemplate>
+      </meta>
+    </object>
+    <object id="30_68103619" type="text" x="16394" y="2552.3499999999995" r="-1.7678172774853472e-45" s="7.166705295328808" class="strong">
+      <height>27.59765625</height>
+      <width>298.2405323050924</width>
+      <p align="center">
+        <text color="1657497"><![CDATA[Change password]]></text>
+      </p>
+      <layout>
+        <layout-element role="body"/>
+      </layout>
+    </object>
+    <object id="37_68103619" type="image" x="16381.449999999999" y="3542.9999999999995" r="-1.7678172774853472e-45" s="2.1045836335924473">
+      <source w="788" h="528">4573531633<url>4573531633.jpg</url></source>
+      <sourceUrl>change_password.jpg</sourceUrl>
+    <resource><id>4573531633</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/d/8/5cb1ba68f028404ab334526ecfb3b7fe41aed.jpg</url></resource></object>
+    <object id="38_68103619" type="text" x="16398.99962434259" y="2817.915265777611" r="-1.767817277485348e-45" s="3.005259203606312" class="body">
+      <height>82.79296875</height>
+      <width>589.3299183169497</width>
+      <p align="center">
+        <text><![CDATA[User can change his password the old fashioned]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[way by entering his old password in the first textfield and the new password to the next textfields.]]></text>
       </p>
     </object>
   </zui-table>
@@ -617,13 +662,16 @@
       <eagle o="50_30863873"/>
     </s>
     <s>
-      <eagle o="55_30863873"/>
-    </s>
-    <s>
       <eagle o="3"/>
     </s>
     <s>
+      <eagle o="55_30863873"/>
+    </s>
+    <s>
       <eagle o="4"/>
+    </s>
+    <s>
+      <eagle o="0_68103619"/>
     </s>
     <s>
       <eagle o="28_68103619"/>
@@ -910,5 +958,5 @@ ZPoly
 }
 
 ]]></style>
-  <hash>8f0224e</hash>
-<sync><oid>0rek50h99lyi</oid><title>replane</title><hash>8f0224e</hash></sync><config>RDyoYDsMEInTbNs8dNuvUeoynwSWB7Sn4of0L9A8AOUyfd/Z+XylxJN08C0u1GneyjEiSJcPqRNXz+oMHODo/kxJBHPJvYfb2hUJH2hVz5cBQC3BtveJ7ZgwwqzR6Rn7LY4FDBuF8bEVm2llYqkKrz2kEm/y/PdkQ3tnP9s074Z9e9JwrxHnh0MUMAlF85OcHwVtPAP/Fx/V/H1IZETAqx4qstaUBeT4ZkpuWGyrCJZyTs6FKG6Kkptw+KMdpp8U+ZNm/XJr3DoifeZD68+GkCIjH69RNHsSsfYdMWxvnwZrIgQv8NXp7vFLwlLcFPaQNR0MwDWXal3EuiTXyqIlAw==</config></zuiprezi>
+  <hash>-12ae3cc8</hash>
+<sync><oid>0rek50h99lyi</oid><title>replane</title><hash>-12ae3cc8</hash></sync><config>g12O1lWp9jvoeaVz07jz2mXIBvTd66pLW4JxCwsEFqsRHKE7CUz2Nczap1ZiO8stYcFn7nWwdHs0AWiv6gIQi8rKF6VoJ1R+FSKkBzibnt1RETLrvQar6aMtHoiVrrUxpv3YrXFMBUyITg99CCtJ0oCQ1Q8DnTmNMwaTXb2iNFmVUVabvRSSxdoBi3WtevsUw50vkYk6vg0LBBwkoIVTkSDwAwDZho3Zsx3YjjjApURLvBrlMHvzEXyEAgVncUWxbGdG8z2nz8ZJuQrj6jP2aJFUfzgsqj5H2xmaLuB2gpv0cnpKYyAy6TAJwb1xwPeGkGrqSMMt3XV6Sm1FfNbiPA==</config></zuiprezi>
